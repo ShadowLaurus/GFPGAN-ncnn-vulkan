@@ -14,6 +14,8 @@ if os.name == 'nt':
 def get_exec_path():
     # Try to find the executable in common build directories
     possible_paths = [
+        Path(".") / "build" / "Release" / EXEC_NAME,
+        Path(".") / "build" / "Debug" / EXEC_NAME,
         Path(".") / "build" / EXEC_NAME,
         Path(".") / EXEC_NAME,
     ]
