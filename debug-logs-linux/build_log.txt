@@ -1,0 +1,1630 @@
+[  0%] Building C object external/libwebp/CMakeFiles/sharpyuv.dir/sharpyuv/sharpyuv_sse2.c.o
+[  0%] Building C object external/libwebp/CMakeFiles/webputils.dir/src/utils/bit_reader_utils.c.o
+[  0%] Building C object external/libwebp/CMakeFiles/webputils.dir/src/utils/color_cache_utils.c.o
+[  0%] Building C object external/libwebp/CMakeFiles/webputils.dir/src/utils/filters_utils.c.o
+[  0%] Building C object external/libwebp/CMakeFiles/webputils.dir/src/utils/huffman_utils.c.o
+[  0%] Building C object external/libwebp/CMakeFiles/sharpyuv.dir/sharpyuv/sharpyuv_neon.c.o
+[  0%] Building C object external/libwebp/CMakeFiles/sharpyuv.dir/sharpyuv/sharpyuv_cpu.c.o
+[  0%] Building C object external/libwebp/CMakeFiles/sharpyuv.dir/sharpyuv/sharpyuv_csp.c.o
+[  0%] Building C object external/libwebp/CMakeFiles/webputils.dir/src/utils/palette.c.o
+[  1%] Building C object external/libwebp/CMakeFiles/sharpyuv.dir/sharpyuv/sharpyuv_dsp.c.o
+[  1%] Building C object external/libwebp/CMakeFiles/webputils.dir/src/utils/quant_levels_dec_utils.c.o
+[  1%] Building C object external/libwebp/CMakeFiles/sharpyuv.dir/sharpyuv/sharpyuv_gamma.c.o
+[  1%] Building C object external/libwebp/CMakeFiles/webputils.dir/src/utils/rescaler_utils.c.o
+[  1%] Building C object external/libwebp/CMakeFiles/sharpyuv.dir/sharpyuv/sharpyuv.c.o
+[  1%] Building C object external/libwebp/CMakeFiles/webputils.dir/src/utils/random_utils.c.o
+[  1%] Building C object external/libwebp/CMakeFiles/webputils.dir/src/utils/thread_utils.c.o
+[  1%] Building C object external/libwebp/CMakeFiles/webputils.dir/src/utils/utils.c.o
+[  2%] Building C object external/libwebp/CMakeFiles/webputils.dir/src/utils/bit_writer_utils.c.o
+[  2%] Building C object external/libwebp/CMakeFiles/webputils.dir/src/utils/huffman_encode_utils.c.o
+[  2%] Linking C static library libsharpyuv.a
+[  2%] Building C object external/libwebp/CMakeFiles/webputils.dir/src/utils/quant_levels_utils.c.o
+[  2%] Built target webputils
+[  2%] Building C object external/libwebp/CMakeFiles/webpdecode.dir/src/dec/alpha_dec.c.o
+[  2%] Building C object external/libwebp/CMakeFiles/webpdecode.dir/src/dec/buffer_dec.c.o
+[  2%] Building C object external/libwebp/CMakeFiles/webpdecode.dir/src/dec/frame_dec.c.o
+[  2%] Building C object external/libwebp/CMakeFiles/webpdecode.dir/src/dec/idec_dec.c.o
+[  2%] Building C object external/libwebp/CMakeFiles/webpdecode.dir/src/dec/io_dec.c.o
+[  2%] Building C object external/libwebp/CMakeFiles/webpdecode.dir/src/dec/quant_dec.c.o
+[  2%] Building C object external/libwebp/CMakeFiles/webpdecode.dir/src/dec/tree_dec.c.o
+[  2%] Building C object external/libwebp/CMakeFiles/webpdecode.dir/src/dec/vp8_dec.c.o
+[  3%] Building C object external/libwebp/CMakeFiles/webpdecode.dir/src/dec/vp8l_dec.c.o
+[  3%] Building C object external/libwebp/CMakeFiles/webpdecode.dir/src/dec/webp_dec.c.o
+[  3%] Built target webpdecode
+[  3%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/alpha_enc.c.o
+[  3%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/analysis_enc.c.o
+[  3%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/backward_references_cost_enc.c.o
+[  3%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/backward_references_enc.c.o
+[  3%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/config_enc.c.o
+[  3%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/cost_enc.c.o
+[  3%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/filter_enc.c.o
+[  4%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/frame_enc.c.o
+[  4%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/histogram_enc.c.o
+[  4%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/iterator_enc.c.o
+[  4%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/near_lossless_enc.c.o
+[  4%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/picture_enc.c.o
+[  4%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/picture_csp_enc.c.o
+[  4%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/picture_psnr_enc.c.o
+[  4%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/picture_rescale_enc.c.o
+[  4%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/picture_tools_enc.c.o
+[  4%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/predictor_enc.c.o
+[  4%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/quant_enc.c.o
+[  4%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/syntax_enc.c.o
+[  4%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/token_enc.c.o
+[  5%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/tree_enc.c.o
+[  5%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/vp8l_enc.c.o
+[  5%] Building C object external/libwebp/CMakeFiles/webpencode.dir/src/enc/webp_enc.c.o
+[  5%] Built target webpencode
+[  5%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/alpha_processing.c.o
+[  5%] Built target sharpyuv
+[  5%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.o
+[  5%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/cpu.c.o
+[  5%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/dec.c.o
+[  5%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/dec_clip_tables.c.o
+[  5%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/filters.c.o
+[  5%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless.c.o
+[  5%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.o
+[  5%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/rescaler.c.o
+[  6%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/upsampling.c.o
+[  6%] Linking CXX static library libGenericCodeGen.a
+[  6%] Built target GenericCodeGen
+[  6%] Building CXX object external/ncnn/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.o
+[  6%] Linking CXX static library libOGLCompiler.a
+[  6%] Built target OGLCompiler
+[  6%] Building CXX object external/ncnn/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/ossource.cpp.o
+[  6%] Linking CXX static library libOSDependent.a
+[  6%] Built target OSDependent
+[  6%] Preprocessing shader source absval.comp
+[  6%] Preprocessing shader source absval_pack4.comp
+[  6%] Preprocessing shader source absval_pack8.comp
+[  6%] Preprocessing shader source batchnorm.comp
+[  6%] Preprocessing shader source batchnorm_pack4.comp
+[  6%] Preprocessing shader source batchnorm_pack8.comp
+[  6%] Preprocessing shader source concat.comp
+[  6%] Preprocessing shader source concat_pack4.comp
+[  6%] Preprocessing shader source concat_pack4to1.comp
+[  6%] Preprocessing shader source concat_pack8.comp
+[  6%] Preprocessing shader source concat_pack8to1.comp
+[  6%] Preprocessing shader source concat_pack8to4.comp
+[  7%] Preprocessing shader source convolution.comp
+[  7%] Preprocessing shader source convolution_1x1s1d1.comp
+[  7%] Preprocessing shader source convolution_3x3s1d1_winograd23_transform_input.comp
+[  7%] Preprocessing shader source convolution_3x3s1d1_winograd23_transform_output.comp
+[  8%] Preprocessing shader source convolution_3x3s1d1_winograd43_transform_input.comp
+[  8%] Preprocessing shader source convolution_3x3s1d1_winograd43_transform_output.comp
+[  8%] Preprocessing shader source convolution_3x3s1d1_winograd_gemm.comp
+[  8%] Preprocessing shader source convolution_gemm.comp
+[  8%] Preprocessing shader source convolution_pack1to4.comp
+[  8%] Preprocessing shader source convolution_pack1to4_1x1s1d1.comp
+[  8%] Preprocessing shader source convolution_pack1to4_3x3s1d1_winograd_gemm.comp
+[  8%] Preprocessing shader source convolution_pack1to4_gemm.comp
+[  8%] Preprocessing shader source convolution_pack1to8.comp
+[  8%] Preprocessing shader source convolution_pack1to8_1x1s1d1.comp
+[  8%] Preprocessing shader source convolution_pack1to8_3x3s1d1_winograd_gemm.comp
+[  8%] Preprocessing shader source convolution_pack1to8_gemm.comp
+[  9%] Preprocessing shader source convolution_pack4.comp
+[  9%] Preprocessing shader source convolution_pack4_1x1s1d1.comp
+[  9%] Preprocessing shader source convolution_pack4_1x1s1d1_khr_cm_16_16_16.comp
+[  9%] Preprocessing shader source convolution_pack4_1x1s1d1_khr_cm_16_8_8.comp
+[  9%] Preprocessing shader source convolution_pack4_1x1s1d1_nv_cm_16_16_16.comp
+[  9%] Preprocessing shader source convolution_pack4_1x1s1d1_nv_cm_16_8_8.comp
+[  9%] Preprocessing shader source convolution_pack4_3x3s1d1_winograd23_transform_input.comp
+[  9%] Preprocessing shader source convolution_pack4_3x3s1d1_winograd23_transform_output.comp
+[  9%] Preprocessing shader source convolution_pack4_3x3s1d1_winograd43_transform_input.comp
+[  9%] Preprocessing shader source convolution_pack4_3x3s1d1_winograd43_transform_output.comp
+[  9%] Preprocessing shader source convolution_pack4_3x3s1d1_winograd_gemm.comp
+[  9%] Preprocessing shader source convolution_pack4_3x3s1d1_winograd_gemm_khr_cm_16_16_16.comp
+[  9%] Preprocessing shader source convolution_pack4_3x3s1d1_winograd_gemm_khr_cm_16_8_8.comp
+[ 10%] Preprocessing shader source convolution_pack4_3x3s1d1_winograd_gemm_nv_cm_16_16_16.comp
+[ 10%] Preprocessing shader source convolution_pack4_3x3s1d1_winograd_gemm_nv_cm_16_8_8.comp
+[ 10%] Preprocessing shader source convolution_pack4_gemm.comp
+[ 10%] Preprocessing shader source convolution_pack4_gemm_khr_cm_16_16_16.comp
+[ 10%] Preprocessing shader source convolution_pack4_gemm_khr_cm_16_8_8.comp
+[ 10%] Preprocessing shader source convolution_pack4_gemm_nv_cm_16_16_16.comp
+[ 10%] Preprocessing shader source convolution_pack4_gemm_nv_cm_16_8_8.comp
+[ 10%] Preprocessing shader source convolution_pack4to1.comp
+[ 10%] Preprocessing shader source convolution_pack4to1_1x1s1d1.comp
+[ 10%] Preprocessing shader source convolution_pack4to1_3x3s1d1_winograd_gemm.comp
+[ 10%] Preprocessing shader source convolution_pack4to1_gemm.comp
+[ 10%] Preprocessing shader source convolution_pack4to8.comp
+[ 10%] Preprocessing shader source convolution_pack4to8_1x1s1d1.comp
+[ 11%] Preprocessing shader source convolution_pack4to8_3x3s1d1_winograd_gemm.comp
+[ 11%] Preprocessing shader source convolution_pack4to8_gemm.comp
+[ 11%] Preprocessing shader source convolution_pack8.comp
+[ 11%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/yuv.c.o
+[ 11%] Preprocessing shader source convolution_pack8_1x1s1d1.comp
+[ 11%] Preprocessing shader source convolution_pack8_3x3s1d1_winograd23_transform_input.comp
+[ 11%] Preprocessing shader source convolution_pack8_3x3s1d1_winograd23_transform_output.comp
+[ 11%] Preprocessing shader source convolution_pack8_3x3s1d1_winograd43_transform_input.comp
+[ 11%] Preprocessing shader source convolution_pack8_3x3s1d1_winograd43_transform_output.comp
+[ 11%] Preprocessing shader source convolution_pack8_3x3s1d1_winograd_gemm.comp
+[ 11%] Preprocessing shader source convolution_pack8_gemm.comp
+[ 11%] Preprocessing shader source convolution_pack8to1.comp
+[ 11%] Preprocessing shader source convolution_pack8to1_1x1s1d1.comp
+[ 11%] Preprocessing shader source convolution_pack8to1_3x3s1d1_winograd_gemm.comp
+[ 12%] Preprocessing shader source convolution_pack8to1_gemm.comp
+[ 12%] Preprocessing shader source convolution_pack8to4.comp
+[ 12%] Preprocessing shader source convolution_pack8to4_1x1s1d1.comp
+[ 12%] Preprocessing shader source convolution_pack8to4_3x3s1d1_winograd_gemm.comp
+[ 12%] Preprocessing shader source convolution_pack8to4_gemm.comp
+[ 12%] Preprocessing shader source crop.comp
+[ 12%] Preprocessing shader source crop_pack1to4.comp
+[ 12%] Preprocessing shader source crop_pack1to8.comp
+[ 12%] Preprocessing shader source crop_pack4.comp
+[ 12%] Preprocessing shader source crop_pack4to1.comp
+[ 12%] Preprocessing shader source crop_pack4to8.comp
+[ 12%] Preprocessing shader source crop_pack8.comp
+[ 12%] Preprocessing shader source crop_pack8to1.comp
+[ 12%] Preprocessing shader source crop_pack8to4.comp
+[ 13%] Preprocessing shader source deconvolution.comp
+[ 13%] Preprocessing shader source deconvolution_col2im.comp
+[ 13%] Preprocessing shader source deconvolution_gemm.comp
+[ 13%] Preprocessing shader source deconvolution_pack1to4.comp
+[ 13%] Preprocessing shader source deconvolution_pack1to4_gemm.comp
+[ 13%] Preprocessing shader source deconvolution_pack1to8.comp
+[ 13%] Preprocessing shader source deconvolution_pack1to8_gemm.comp
+[ 13%] Preprocessing shader source deconvolution_pack4.comp
+[ 13%] Preprocessing shader source deconvolution_pack4_col2im.comp
+[ 13%] Preprocessing shader source deconvolution_pack4_gemm.comp
+[ 13%] Preprocessing shader source deconvolution_pack4_gemm_khr_cm_16_16_16.comp
+[ 13%] Preprocessing shader source deconvolution_pack4_gemm_khr_cm_16_8_8.comp
+[ 13%] Preprocessing shader source deconvolution_pack4_gemm_nv_cm_16_16_16.comp
+[ 14%] Preprocessing shader source deconvolution_pack4_gemm_nv_cm_16_8_8.comp
+[ 14%] Preprocessing shader source deconvolution_pack4to1.comp
+[ 14%] Preprocessing shader source deconvolution_pack4to1_gemm.comp
+[ 14%] Preprocessing shader source deconvolution_pack4to8.comp
+[ 14%] Preprocessing shader source deconvolution_pack4to8_gemm.comp
+[ 14%] Preprocessing shader source deconvolution_pack8.comp
+[ 14%] Preprocessing shader source deconvolution_pack8_col2im.comp
+[ 14%] Preprocessing shader source deconvolution_pack8_gemm.comp
+[ 14%] Preprocessing shader source deconvolution_pack8to1.comp
+[ 14%] Preprocessing shader source deconvolution_pack8to1_gemm.comp
+[ 14%] Preprocessing shader source deconvolution_pack8to4.comp
+[ 14%] Preprocessing shader source deconvolution_pack8to4_gemm.comp
+[ 14%] Preprocessing shader source dropout.comp
+[ 14%] Preprocessing shader source dropout_pack4.comp
+[ 14%] Preprocessing shader source dropout_pack8.comp
+[ 14%] Preprocessing shader source eltwise.comp
+[ 14%] Preprocessing shader source eltwise_pack4.comp
+[ 14%] Preprocessing shader source eltwise_pack8.comp
+[ 14%] Preprocessing shader source elu.comp
+[ 14%] Preprocessing shader source elu_pack4.comp
+[ 14%] Preprocessing shader source elu_pack8.comp
+[ 14%] Preprocessing shader source flatten.comp
+[ 14%] Preprocessing shader source flatten_pack1to4.comp
+[ 14%] Preprocessing shader source flatten_pack1to8.comp
+[ 14%] Preprocessing shader source flatten_pack4.comp
+[ 14%] Preprocessing shader source flatten_pack4to8.comp
+[ 14%] Preprocessing shader source flatten_pack8.comp
+[ 14%] Preprocessing shader source innerproduct.comp
+[ 14%] Preprocessing shader source innerproduct_gemm.comp
+[ 14%] Preprocessing shader source innerproduct_gemm_wp1to4.comp
+[ 14%] Preprocessing shader source innerproduct_gemm_wp1to8.comp
+[ 14%] Preprocessing shader source innerproduct_gemm_wp4.comp
+[ 14%] Preprocessing shader source innerproduct_gemm_wp4to1.comp
+[ 14%] Preprocessing shader source innerproduct_gemm_wp4to8.comp
+[ 14%] Preprocessing shader source innerproduct_gemm_wp8.comp
+[ 14%] Preprocessing shader source innerproduct_gemm_wp8to1.comp
+[ 15%] Preprocessing shader source innerproduct_gemm_wp8to4.comp
+[ 15%] Preprocessing shader source innerproduct_pack1to4.comp
+[ 15%] Preprocessing shader source innerproduct_pack1to8.comp
+[ 15%] Preprocessing shader source innerproduct_pack4.comp
+[ 15%] Preprocessing shader source innerproduct_pack4to1.comp
+[ 15%] Preprocessing shader source innerproduct_pack4to8.comp
+[ 15%] Preprocessing shader source innerproduct_pack8.comp
+[ 15%] Preprocessing shader source innerproduct_pack8to1.comp
+[ 15%] Preprocessing shader source innerproduct_pack8to4.comp
+[ 15%] Preprocessing shader source innerproduct_reduce_sum8.comp
+[ 15%] Preprocessing shader source innerproduct_reduce_sum8_pack4.comp
+[ 15%] Preprocessing shader source innerproduct_reduce_sum8_pack8.comp
+[ 15%] Preprocessing shader source innerproduct_sum8.comp
+[ 16%] Preprocessing shader source innerproduct_sum8_pack1to4.comp
+[ 16%] Preprocessing shader source innerproduct_sum8_pack1to8.comp
+[ 16%] Preprocessing shader source innerproduct_sum8_pack4.comp
+[ 16%] Preprocessing shader source innerproduct_sum8_pack4to1.comp
+[ 16%] Preprocessing shader source innerproduct_sum8_pack4to8.comp
+[ 16%] Preprocessing shader source innerproduct_sum8_pack8.comp
+[ 16%] Preprocessing shader source innerproduct_sum8_pack8to1.comp
+[ 16%] Preprocessing shader source innerproduct_sum8_pack8to4.comp
+[ 16%] Preprocessing shader source lrn_norm.comp
+[ 16%] Preprocessing shader source lrn_norm_across_channel_pack4.comp
+[ 16%] Preprocessing shader source lrn_norm_across_channel_pack8.comp
+[ 16%] Preprocessing shader source lrn_norm_within_channel_pack4.comp
+[ 16%] Preprocessing shader source lrn_norm_within_channel_pack8.comp
+[ 16%] Preprocessing shader source lrn_square_pad.comp
+[ 17%] Preprocessing shader source lrn_square_pad_across_channel_pack4.comp
+[ 17%] Preprocessing shader source lrn_square_pad_across_channel_pack8.comp
+[ 17%] Preprocessing shader source lrn_square_pad_within_channel_pack4.comp
+[ 17%] Preprocessing shader source lrn_square_pad_within_channel_pack8.comp
+[ 17%] Preprocessing shader source pooling.comp
+[ 17%] Preprocessing shader source pooling_adaptive.comp
+[ 17%] Preprocessing shader source pooling_adaptive_pack4.comp
+[ 17%] Preprocessing shader source pooling_adaptive_pack8.comp
+[ 17%] Preprocessing shader source pooling_global.comp
+[ 17%] Preprocessing shader source pooling_global_pack4.comp
+[ 17%] Preprocessing shader source pooling_global_pack8.comp
+[ 17%] Preprocessing shader source pooling_pack4.comp
+[ 17%] Preprocessing shader source pooling_pack8.comp
+[ 18%] Preprocessing shader source prelu.comp
+[ 18%] Preprocessing shader source prelu_pack4.comp
+[ 18%] Preprocessing shader source prelu_pack8.comp
+[ 18%] Preprocessing shader source relu.comp
+[ 18%] Preprocessing shader source relu_pack4.comp
+[ 18%] Preprocessing shader source relu_pack8.comp
+[ 18%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/alpha_processing_sse41.c.o
+[ 18%] Preprocessing shader source reshape.comp
+[ 18%] Preprocessing shader source reshape_pack1to4.comp
+[ 18%] Preprocessing shader source reshape_pack1to8.comp
+[ 18%] Preprocessing shader source reshape_pack4.comp
+[ 18%] Preprocessing shader source reshape_pack4to1.comp
+[ 18%] Preprocessing shader source reshape_pack4to8.comp
+[ 18%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/dec_sse41.c.o
+[ 18%] Preprocessing shader source reshape_pack8.comp
+[ 18%] Preprocessing shader source reshape_pack8to1.comp
+[ 18%] Preprocessing shader source reshape_pack8to4.comp
+[ 18%] Preprocessing shader source scale.comp
+[ 18%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless_sse41.c.o
+[ 18%] Preprocessing shader source scale_pack4.comp
+[ 18%] Preprocessing shader source scale_pack8.comp
+[ 18%] Preprocessing shader source sigmoid.comp
+[ 18%] Preprocessing shader source sigmoid_pack4.comp
+[ 18%] Preprocessing shader source sigmoid_pack8.comp
+[ 18%] Preprocessing shader source slice.comp
+[ 18%] Preprocessing shader source slice_pack1to4.comp
+[ 18%] Preprocessing shader source slice_pack1to8.comp
+[ 18%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/upsampling_sse41.c.o
+[ 18%] Preprocessing shader source slice_pack4.comp
+[ 18%] Preprocessing shader source slice_pack4to8.comp
+[ 18%] Preprocessing shader source slice_pack8.comp
+[ 18%] Preprocessing shader source softmax_div_sum.comp
+[ 19%] Preprocessing shader source softmax_div_sum_pack4.comp
+[ 19%] Preprocessing shader source softmax_div_sum_pack8.comp
+[ 19%] Preprocessing shader source softmax_exp_sub_max.comp
+[ 19%] Preprocessing shader source softmax_exp_sub_max_pack4.comp
+[ 19%] Preprocessing shader source softmax_exp_sub_max_pack8.comp
+[ 19%] Preprocessing shader source softmax_reduce_max.comp
+[ 19%] Preprocessing shader source softmax_reduce_max_pack4.comp
+[ 19%] Preprocessing shader source softmax_reduce_max_pack8.comp
+[ 19%] Preprocessing shader source softmax_reduce_sum.comp
+[ 19%] Preprocessing shader source softmax_reduce_sum_pack4.comp
+[ 19%] Preprocessing shader source softmax_reduce_sum_pack8.comp
+[ 19%] Preprocessing shader source tanh.comp
+[ 19%] Preprocessing shader source tanh_pack4.comp
+[ 19%] Preprocessing shader source tanh_pack8.comp
+[ 19%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/yuv_sse41.c.o
+[ 19%] Preprocessing shader source binaryop.comp
+[ 20%] Preprocessing shader source binaryop_broadcast.comp
+[ 20%] Preprocessing shader source binaryop_broadcast_pack1to4.comp
+[ 20%] Preprocessing shader source binaryop_broadcast_pack1to8.comp
+[ 20%] Preprocessing shader source binaryop_broadcast_pack4.comp
+[ 20%] Preprocessing shader source binaryop_broadcast_pack8.comp
+[ 20%] Preprocessing shader source binaryop_pack4.comp
+[ 20%] Preprocessing shader source binaryop_pack8.comp
+[ 20%] Preprocessing shader source unaryop.comp
+[ 20%] Preprocessing shader source unaryop_pack4.comp
+[ 20%] Preprocessing shader source unaryop_pack8.comp
+[ 20%] Preprocessing shader source convolutiondepthwise.comp
+[ 20%] Preprocessing shader source convolutiondepthwise_group.comp
+[ 20%] Preprocessing shader source convolutiondepthwise_group_pack1to4.comp
+[ 20%] Preprocessing shader source convolutiondepthwise_group_pack1to8.comp
+[ 20%] Preprocessing shader source convolutiondepthwise_group_pack4.comp
+[ 20%] Preprocessing shader source convolutiondepthwise_group_pack4to1.comp
+[ 20%] Preprocessing shader source convolutiondepthwise_group_pack4to8.comp
+[ 20%] Preprocessing shader source convolutiondepthwise_group_pack8.comp
+[ 21%] Preprocessing shader source convolutiondepthwise_group_pack8to1.comp
+[ 21%] Preprocessing shader source convolutiondepthwise_group_pack8to4.comp
+[ 21%] Preprocessing shader source convolutiondepthwise_pack4.comp
+[ 21%] Preprocessing shader source convolutiondepthwise_pack8.comp
+[ 21%] Preprocessing shader source padding.comp
+[ 21%] Preprocessing shader source padding_3d.comp
+[ 21%] Preprocessing shader source padding_3d_pack4.comp
+[ 21%] Preprocessing shader source padding_3d_pack8.comp
+[ 21%] Preprocessing shader source padding_pack1to4.comp
+[ 21%] Preprocessing shader source padding_pack1to8.comp
+[ 21%] Preprocessing shader source padding_pack4.comp
+[ 21%] Preprocessing shader source padding_pack4to1.comp
+[ 21%] Preprocessing shader source padding_pack4to8.comp
+[ 21%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/alpha_processing_sse2.c.o
+[ 21%] Preprocessing shader source padding_pack8.comp
+[ 22%] Preprocessing shader source padding_pack8to1.comp
+[ 22%] Preprocessing shader source padding_pack8to4.comp
+[ 22%] Preprocessing shader source normalize_coeffs.comp
+[ 22%] Preprocessing shader source normalize_coeffs_pack4.comp
+[ 22%] Preprocessing shader source normalize_coeffs_pack8.comp
+[ 22%] Preprocessing shader source normalize_norm.comp
+[ 22%] Preprocessing shader source normalize_norm_pack4.comp
+[ 22%] Preprocessing shader source normalize_norm_pack8.comp
+[ 22%] Preprocessing shader source normalize_reduce_sum4_fp16_to_fp32.comp
+[ 22%] Preprocessing shader source normalize_reduce_sum4_fp16_to_fp32_pack4.comp
+[ 22%] Preprocessing shader source normalize_reduce_sum4_fp16_to_fp32_pack8.comp
+[ 22%] Preprocessing shader source normalize_reduce_sum4_fp32.comp
+[ 22%] Preprocessing shader source normalize_reduce_sum4_fp32_pack4.comp
+[ 23%] Preprocessing shader source normalize_reduce_sum4_fp32_pack8.comp
+[ 23%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/dec_sse2.c.o
+[ 23%] Preprocessing shader source permute.comp
+[ 23%] Preprocessing shader source permute_pack1to4.comp
+[ 23%] Preprocessing shader source permute_pack1to8.comp
+[ 23%] Preprocessing shader source permute_pack4.comp
+[ 23%] Preprocessing shader source permute_pack4to1.comp
+[ 23%] Preprocessing shader source permute_pack4to8.comp
+[ 23%] Preprocessing shader source permute_pack8.comp
+[ 23%] Preprocessing shader source permute_pack8to1.comp
+[ 23%] Preprocessing shader source permute_pack8to4.comp
+[ 23%] Preprocessing shader source priorbox.comp
+[ 23%] Preprocessing shader source priorbox_mxnet.comp
+[ 24%] Preprocessing shader source interp.comp
+[ 24%] Preprocessing shader source interp_bicubic.comp
+[ 24%] Preprocessing shader source interp_bicubic_coeffs.comp
+[ 24%] Preprocessing shader source interp_bicubic_pack4.comp
+[ 24%] Preprocessing shader source interp_bicubic_pack8.comp
+[ 24%] Preprocessing shader source interp_pack4.comp
+[ 24%] Preprocessing shader source interp_pack8.comp
+[ 24%] Preprocessing shader source deconvolutiondepthwise.comp
+[ 25%] Preprocessing shader source deconvolutiondepthwise_group.comp
+[ 25%] Preprocessing shader source deconvolutiondepthwise_group_pack1to4.comp
+[ 25%] Preprocessing shader source deconvolutiondepthwise_group_pack1to8.comp
+[ 25%] Preprocessing shader source deconvolutiondepthwise_group_pack4.comp
+[ 25%] Preprocessing shader source deconvolutiondepthwise_group_pack4to1.comp
+[ 25%] Preprocessing shader source deconvolutiondepthwise_group_pack4to8.comp
+[ 25%] Preprocessing shader source deconvolutiondepthwise_group_pack8.comp
+[ 25%] Preprocessing shader source deconvolutiondepthwise_group_pack8to1.comp
+[ 25%] Preprocessing shader source deconvolutiondepthwise_group_pack8to4.comp
+[ 25%] Preprocessing shader source deconvolutiondepthwise_pack4.comp
+[ 25%] Preprocessing shader source deconvolutiondepthwise_pack8.comp
+[ 26%] Preprocessing shader source shufflechannel.comp
+[ 26%] Preprocessing shader source shufflechannel_pack4.comp
+[ 26%] Preprocessing shader source shufflechannel_pack8.comp
+[ 26%] Preprocessing shader source instancenorm_coeffs.comp
+[ 26%] Preprocessing shader source instancenorm_coeffs_pack4.comp
+[ 26%] Preprocessing shader source instancenorm_coeffs_pack8.comp
+[ 26%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/filters_sse2.c.o
+[ 26%] Preprocessing shader source instancenorm_norm.comp
+[ 26%] Preprocessing shader source instancenorm_norm_pack4.comp
+[ 27%] Preprocessing shader source instancenorm_norm_pack8.comp
+[ 27%] Preprocessing shader source instancenorm_reduce_mean.comp
+[ 27%] Preprocessing shader source instancenorm_reduce_mean_pack4.comp
+[ 27%] Preprocessing shader source instancenorm_reduce_mean_pack8.comp
+[ 27%] Preprocessing shader source instancenorm_reduce_sum4_fp16_to_fp32.comp
+[ 27%] Preprocessing shader source instancenorm_reduce_sum4_fp16_to_fp32_pack4.comp
+[ 27%] Preprocessing shader source instancenorm_reduce_sum4_fp16_to_fp32_pack8.comp
+[ 27%] Preprocessing shader source instancenorm_reduce_sum4_fp32.comp
+[ 27%] Preprocessing shader source instancenorm_reduce_sum4_fp32_pack4.comp
+[ 27%] Preprocessing shader source instancenorm_reduce_sum4_fp32_pack8.comp
+[ 27%] Preprocessing shader source instancenorm_sub_mean_square.comp
+[ 27%] Preprocessing shader source instancenorm_sub_mean_square_pack4.comp
+[ 27%] Preprocessing shader source instancenorm_sub_mean_square_pack8.comp
+[ 27%] Preprocessing shader source clip.comp
+[ 27%] Preprocessing shader source clip_pack4.comp
+[ 27%] Preprocessing shader source clip_pack8.comp
+[ 27%] Preprocessing shader source reorg.comp
+[ 27%] Preprocessing shader source reorg_pack1to4.comp
+[ 27%] Preprocessing shader source reorg_pack1to8.comp
+[ 27%] Preprocessing shader source reorg_pack4.comp
+[ 27%] Preprocessing shader source reorg_pack4to8.comp
+[ 28%] Preprocessing shader source reorg_pack8.comp
+[ 28%] Preprocessing shader source packing.comp
+[ 28%] Preprocessing shader source packing_fp16_to_fp32.comp
+[ 28%] Preprocessing shader source packing_fp32_to_fp16.comp
+[ 28%] Preprocessing shader source packing_pack1to4.comp
+[ 28%] Preprocessing shader source packing_pack1to4_fp16_to_fp32.comp
+[ 28%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless_sse2.c.o
+[ 28%] Preprocessing shader source packing_pack1to4_fp32_to_fp16.comp
+[ 28%] Preprocessing shader source packing_pack1to8.comp
+[ 28%] Preprocessing shader source packing_pack1to8_fp16_to_fp32.comp
+[ 28%] Preprocessing shader source packing_pack1to8_fp32_to_fp16.comp
+[ 28%] Preprocessing shader source packing_pack4.comp
+[ 28%] Preprocessing shader source packing_pack4_fp16_to_fp32.comp
+[ 29%] Preprocessing shader source packing_pack4_fp32_to_fp16.comp
+[ 29%] Preprocessing shader source packing_pack4to1.comp
+[ 29%] Preprocessing shader source packing_pack4to1_fp16_to_fp32.comp
+[ 29%] Preprocessing shader source packing_pack4to1_fp32_to_fp16.comp
+[ 29%] Preprocessing shader source packing_pack4to8.comp
+[ 29%] Preprocessing shader source packing_pack4to8_fp16_to_fp32.comp
+[ 29%] Preprocessing shader source packing_pack4to8_fp32_to_fp16.comp
+[ 29%] Preprocessing shader source packing_pack8.comp
+[ 29%] Preprocessing shader source packing_pack8_fp16_to_fp32.comp
+[ 29%] Preprocessing shader source packing_pack8_fp32_to_fp16.comp
+[ 29%] Preprocessing shader source packing_pack8to1.comp
+[ 29%] Preprocessing shader source packing_pack8to1_fp16_to_fp32.comp
+[ 29%] Preprocessing shader source packing_pack8to1_fp32_to_fp16.comp
+[ 30%] Preprocessing shader source packing_pack8to4.comp
+[ 30%] Preprocessing shader source packing_pack8to4_fp16_to_fp32.comp
+[ 30%] Preprocessing shader source packing_pack8to4_fp32_to_fp16.comp
+[ 30%] Preprocessing shader source cast_fp16_to_fp32.comp
+[ 30%] Preprocessing shader source cast_fp16_to_fp32_pack4.comp
+[ 30%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/rescaler_sse2.c.o
+[ 30%] Preprocessing shader source cast_fp16_to_fp32_pack8.comp
+[ 30%] Preprocessing shader source cast_fp32_to_fp16.comp
+[ 30%] Preprocessing shader source cast_fp32_to_fp16_pack4.comp
+[ 30%] Preprocessing shader source cast_fp32_to_fp16_pack8.comp
+[ 30%] Preprocessing shader source hardsigmoid.comp
+[ 30%] Preprocessing shader source hardsigmoid_pack4.comp
+[ 31%] Preprocessing shader source hardsigmoid_pack8.comp
+[ 31%] Preprocessing shader source hardswish.comp
+[ 31%] Preprocessing shader source hardswish_pack4.comp
+[ 31%] Preprocessing shader source hardswish_pack8.comp
+[ 31%] Preprocessing shader source pixelshuffle.comp
+[ 31%] Preprocessing shader source pixelshuffle_pack4.comp
+[ 32%] Preprocessing shader source pixelshuffle_pack4to1.comp
+[ 32%] Preprocessing shader source pixelshuffle_pack8.comp
+[ 32%] Preprocessing shader source pixelshuffle_pack8to1.comp
+[ 32%] Preprocessing shader source pixelshuffle_pack8to4.comp
+[ 32%] Preprocessing shader source deepcopy.comp
+[ 32%] Preprocessing shader source deepcopy_pack4.comp
+[ 33%] Preprocessing shader source deepcopy_pack8.comp
+[ 33%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/upsampling_sse2.c.o
+[ 33%] Preprocessing shader source mish.comp
+[ 33%] Preprocessing shader source mish_pack4.comp
+[ 33%] Preprocessing shader source mish_pack8.comp
+[ 33%] Preprocessing shader source swish.comp
+[ 33%] Preprocessing shader source swish_pack4.comp
+[ 34%] Preprocessing shader source swish_pack8.comp
+[ 34%] Preprocessing shader source gemm.comp
+[ 34%] Preprocessing shader source multiheadattention_qk_cross.comp
+[ 34%] Preprocessing shader source multiheadattention_qk_cross_pack1to4.comp
+[ 34%] Preprocessing shader source multiheadattention_qk_cross_pack4.comp
+[ 34%] Preprocessing shader source multiheadattention_qk_cross_pack4to1.comp
+[ 34%] Preprocessing shader source multiheadattention_qkv_cross.comp
+[ 34%] Preprocessing shader source multiheadattention_qkv_cross_pack1to4.comp
+[ 35%] Preprocessing shader source multiheadattention_qkv_cross_pack4.comp
+[ 35%] Preprocessing shader source multiheadattention_qkv_cross_pack4to1.comp
+[ 35%] Preprocessing shader source gelu.comp
+[ 35%] Preprocessing shader source gelu_pack4.comp
+[ 35%] Preprocessing shader source gelu_pack8.comp
+[ 35%] Preprocessing shader source convolution1d.comp
+[ 35%] Preprocessing shader source convolution1d_pack1to4.comp
+[ 35%] Preprocessing shader source convolution1d_pack1to8.comp
+[ 35%] Preprocessing shader source convolution1d_pack4.comp
+[ 35%] Preprocessing shader source convolution1d_pack4to1.comp
+[ 35%] Preprocessing shader source convolution1d_pack4to8.comp
+[ 35%] Preprocessing shader source convolution1d_pack8.comp
+[ 35%] Preprocessing shader source convolution1d_pack8to1.comp
+[ 35%] Preprocessing shader source convolution1d_pack8to4.comp
+[ 35%] Preprocessing shader source erf.comp
+[ 35%] Preprocessing shader source erf_pack4.comp
+[ 36%] Preprocessing shader source erf_pack8.comp
+[ 37%] Preprocessing shader source celu.comp
+[ 37%] Preprocessing shader source celu_pack4.comp
+[ 37%] Preprocessing shader source celu_pack8.comp
+[ 37%] Preprocessing shader source convert_ycbcr.comp
+[ 37%] Preprocessing shader source vulkan_activation.comp
+[ 37%] Built target ncnn-generate-spirv
+[ 37%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/glslang-default-resource-limits.dir/ResourceLimits/ResourceLimits.cpp.o
+[ 38%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/yuv_sse2.c.o
+[ 38%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/glslang-default-resource-limits.dir/ResourceLimits/resource_limits_c.cpp.o
+[ 38%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/cost.c.o
+[ 38%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/enc.c.o
+[ 38%] Linking CXX static library libglslang-default-resource-limits.a
+[ 38%] Built target glslang-default-resource-limits
+[ 38%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/alpha_processing.c.o
+[ 38%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/cpu.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/dec.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless_enc.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/ssim.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/cost_sse2.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/dec_clip_tables.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/enc_sse2.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/filters.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/lossless.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless_enc_sse2.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/rescaler.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/ssim_sse2.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/enc_sse41.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/upsampling.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webpdsp.dir/src/dsp/lossless_enc_sse41.c.o
+[ 39%] Built target webpdsp
+[ 39%] Building C object external/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/bit_reader_utils.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/color_cache_utils.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/filters_utils.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/huffman_utils.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/palette.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/quant_levels_dec_utils.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/rescaler_utils.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/random_utils.c.o
+[ 39%] Building C object external/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/thread_utils.c.o
+[ 40%] Building C object external/libwebp/CMakeFiles/webputilsdecode.dir/src/utils/utils.c.o
+[ 40%] Built target webputilsdecode
+[ 40%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/yuv.c.o
+[ 40%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/alpha_processing_sse41.c.o
+[ 40%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/dec_sse41.c.o
+[ 40%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/lossless_sse41.c.o
+[ 40%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/upsampling_sse41.c.o
+[ 40%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/yuv_sse41.c.o
+[ 40%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/alpha_processing_sse2.c.o
+[ 41%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/dec_sse2.c.o
+[ 41%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/filters_sse2.c.o
+[ 41%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/lossless_sse2.c.o
+[ 41%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/rescaler_sse2.c.o
+[ 41%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/upsampling_sse2.c.o
+[ 41%] Building C object external/libwebp/CMakeFiles/webpdspdecode.dir/src/dsp/yuv_sse2.c.o
+[ 41%] Built target webpdspdecode
+[ 41%] Linking C static library libwebp.a
+[ 41%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.o
+[ 41%] Built target webp
+[ 41%] Linking C static library libwebpdecoder.a
+[ 41%] Built target webpdecoder
+[ 41%] Building C object external/libwebp/CMakeFiles/webpdemux.dir/src/demux/anim_decode.c.o
+[ 41%] Building C object external/libwebp/CMakeFiles/webpdemux.dir/src/demux/demux.c.o
+[ 41%] Linking C static library libwebpdemux.a
+[ 41%] Built target webpdemux
+[ 41%] Building C object external/libwebp/CMakeFiles/libwebpmux.dir/src/mux/anim_encode.c.o
+[ 41%] Building C object external/libwebp/CMakeFiles/libwebpmux.dir/src/mux/muxedit.c.o
+[ 41%] Building C object external/libwebp/CMakeFiles/libwebpmux.dir/src/mux/muxinternal.c.o
+[ 41%] Building C object external/libwebp/CMakeFiles/libwebpmux.dir/src/mux/muxread.c.o
+[ 41%] Linking C static library libwebpmux.a
+[ 41%] Built target libwebpmux
+[ 41%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.o
+[ 41%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.o
+[ 41%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.o
+[ 41%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.o
+[ 41%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.o
+[ 41%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.o
+[ 41%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.o
+[ 41%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.o
+[ 42%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.o
+[ 42%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.o
+[ 42%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.o
+[ 42%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.o
+[ 42%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.o
+[ 42%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SpirvIntrinsics.cpp.o
+[ 42%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.o
+[ 42%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.o
+[ 42%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.o
+[ 42%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.o
+[ 42%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.o
+[ 42%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.o
+[ 42%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.o
+[ 43%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.o
+[ 43%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.o
+[ 43%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.o
+[ 43%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.o
+[ 43%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.o
+[ 43%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.o
+[ 43%] Linking CXX static library libMachineIndependent.a
+[ 43%] Built target MachineIndependent
+[ 44%] Building CXX object external/ncnn/glslang/glslang/CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.o
+[ 44%] Building CXX object external/ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.o
+[ 44%] Linking CXX static library libglslang.a
+[ 44%] Built target glslang
+[ 44%] Building CXX object external/ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/InReadableOrder.cpp.o
+[ 45%] Building CXX object external/ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/Logger.cpp.o
+[ 45%] Building CXX object external/ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvBuilder.cpp.o
+[ 45%] Building CXX object external/ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.o
+[ 45%] Building CXX object external/ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/doc.cpp.o
+[ 45%] Building CXX object external/ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvTools.cpp.o
+[ 45%] Building CXX object external/ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/disassemble.cpp.o
+[ 45%] Building CXX object external/ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.o
+[ 45%] Linking CXX static library libSPIRV.a
+[ 45%] Built target SPIRV
+[ 45%] Generating source yolov3detectionoutput_x86_fma.h
+[ 45%] Generating source batchnorm_x86_avx.cpp
+[ 45%] Generating source batchnorm_x86_avx.h
+[ 45%] Generating source batchnorm_x86_avx512.cpp
+[ 45%] Generating source batchnorm_x86_avx512.h
+[ 46%] Generating source batchnorm_x86_fma.cpp
+[ 46%] Generating source batchnorm_x86_fma.h
+[ 46%] Generating source bias_x86_avx.cpp
+[ 46%] Generating source bias_x86_avx.h
+[ 46%] Generating source bias_x86_avx512.cpp
+[ 46%] Generating source bias_x86_avx512.h
+[ 46%] Generating source bias_x86_fma.cpp
+[ 46%] Generating source bias_x86_fma.h
+[ 46%] Generating source binaryop_x86_avx.cpp
+[ 46%] Generating source binaryop_x86_avx.h
+[ 46%] Generating source binaryop_x86_avx512.cpp
+[ 46%] Generating source binaryop_x86_avx512.h
+[ 46%] Generating source binaryop_x86_fma.cpp
+[ 46%] Generating source binaryop_x86_fma.h
+[ 46%] Generating source bnll_x86_avx.cpp
+[ 47%] Generating source bnll_x86_avx.h
+[ 47%] Generating source bnll_x86_avx512.cpp
+[ 47%] Generating source bnll_x86_avx512.h
+[ 47%] Generating source bnll_x86_fma.cpp
+[ 47%] Generating source bnll_x86_fma.h
+[ 47%] Generating source cast_x86_avx.cpp
+[ 47%] Generating source cast_x86_avx.h
+[ 47%] Generating source cast_x86_avx512.cpp
+[ 48%] Generating source cast_x86_avx512.h
+[ 48%] Generating source cast_x86_fma.cpp
+[ 48%] Generating source cast_x86_fma.h
+[ 48%] Generating source clip_x86_avx.cpp
+[ 48%] Generating source clip_x86_avx.h
+[ 48%] Generating source clip_x86_avx512.cpp
+[ 48%] Generating source clip_x86_avx512.h
+[ 49%] Generating source clip_x86_fma.cpp
+[ 49%] Generating source clip_x86_fma.h
+[ 49%] Generating source concat_x86_avx.cpp
+[ 49%] Generating source concat_x86_avx.h
+[ 49%] Generating source concat_x86_avx512.cpp
+[ 49%] Generating source concat_x86_avx512.h
+[ 49%] Generating source concat_x86_fma.cpp
+[ 49%] Generating source concat_x86_fma.h
+[ 49%] Generating source convolution1d_x86_avx.cpp
+[ 49%] Generating source convolution1d_x86_avx.h
+[ 49%] Generating source convolution1d_x86_avx512.cpp
+[ 49%] Generating source convolution1d_x86_avx512.h
+[ 49%] Generating source convolution1d_x86_fma.cpp
+[ 49%] Generating source convolution1d_x86_fma.h
+[ 50%] Generating source convolution_x86_avx.cpp
+[ 50%] Generating source convolution_x86_avx.h
+[ 50%] Generating source convolution_x86_avx512.cpp
+[ 50%] Generating source convolution_x86_avx512.h
+[ 50%] Generating source convolution_x86_fma.cpp
+[ 50%] Generating source convolution_x86_fma.h
+[ 50%] Generating source convolutiondepthwise_x86_avx.cpp
+[ 50%] Generating source convolutiondepthwise_x86_avx.h
+[ 50%] Generating source convolutiondepthwise_x86_avx512.cpp
+[ 50%] Generating source convolutiondepthwise_x86_avx512.h
+[ 50%] Generating source convolutiondepthwise_x86_fma.cpp
+[ 50%] Generating source convolutiondepthwise_x86_fma.h
+[ 50%] Generating source crop_x86_avx.cpp
+[ 50%] Generating source crop_x86_avx.h
+[ 50%] Generating source crop_x86_avx512.cpp
+[ 50%] Generating source crop_x86_avx512.h
+[ 50%] Generating source crop_x86_fma.cpp
+[ 50%] Generating source crop_x86_fma.h
+[ 50%] Generating source deconvolution_x86_avx.cpp
+[ 50%] Generating source deconvolution_x86_avx.h
+[ 50%] Generating source deconvolution_x86_avx512.cpp
+[ 50%] Generating source deconvolution_x86_avx512.h
+[ 50%] Generating source deconvolution_x86_fma.cpp
+[ 50%] Generating source deconvolution_x86_fma.h
+[ 50%] Generating source deconvolutiondepthwise_x86_avx.cpp
+[ 50%] Generating source deconvolutiondepthwise_x86_avx.h
+[ 50%] Generating source deconvolutiondepthwise_x86_avx512.cpp
+[ 50%] Generating source deconvolutiondepthwise_x86_avx512.h
+[ 51%] Generating source deconvolutiondepthwise_x86_fma.cpp
+[ 51%] Generating source deconvolutiondepthwise_x86_fma.h
+[ 51%] Generating source deformableconv2d_x86_avx.cpp
+[ 51%] Generating source deformableconv2d_x86_avx.h
+[ 51%] Generating source deformableconv2d_x86_avx512.cpp
+[ 51%] Generating source deformableconv2d_x86_avx512.h
+[ 51%] Generating source deformableconv2d_x86_fma.cpp
+[ 51%] Generating source deformableconv2d_x86_fma.h
+[ 51%] Generating source dequantize_x86_avx.cpp
+[ 52%] Generating source dequantize_x86_avx.h
+[ 52%] Generating source dequantize_x86_avx512.cpp
+[ 52%] Generating source dequantize_x86_avx512.h
+[ 52%] Generating source dequantize_x86_fma.cpp
+[ 52%] Generating source dequantize_x86_fma.h
+[ 52%] Generating source dropout_x86_avx.cpp
+[ 52%] Generating source dropout_x86_avx.h
+[ 52%] Generating source dropout_x86_avx512.cpp
+[ 53%] Generating source dropout_x86_avx512.h
+[ 53%] Generating source dropout_x86_fma.cpp
+[ 53%] Generating source dropout_x86_fma.h
+[ 53%] Generating source eltwise_x86_avx.cpp
+[ 53%] Generating source eltwise_x86_avx.h
+[ 53%] Generating source eltwise_x86_avx512.cpp
+[ 53%] Generating source eltwise_x86_avx512.h
+[ 53%] Generating source eltwise_x86_fma.cpp
+[ 53%] Generating source eltwise_x86_fma.h
+[ 53%] Generating source elu_x86_avx.cpp
+[ 53%] Generating source elu_x86_avx.h
+[ 54%] Generating source elu_x86_avx512.cpp
+[ 54%] Generating source elu_x86_avx512.h
+[ 54%] Generating source elu_x86_fma.cpp
+[ 54%] Generating source elu_x86_fma.h
+[ 54%] Generating source flatten_x86_avx.cpp
+[ 54%] Generating source flatten_x86_avx.h
+[ 54%] Generating source flatten_x86_avx512.cpp
+[ 54%] Generating source flatten_x86_avx512.h
+[ 54%] Generating source flatten_x86_fma.cpp
+[ 54%] Generating source flatten_x86_fma.h
+[ 55%] Generating source gelu_x86_avx.cpp
+[ 55%] Generating source gelu_x86_avx.h
+[ 55%] Generating source gelu_x86_avx512.cpp
+[ 55%] Generating source gelu_x86_avx512.h
+[ 55%] Generating source gelu_x86_fma.cpp
+[ 55%] Generating source gelu_x86_fma.h
+[ 55%] Generating source gemm_x86_avx.cpp
+[ 55%] Generating source gemm_x86_avx.h
+[ 55%] Generating source gemm_x86_avx512.cpp
+[ 55%] Generating source gemm_x86_avx512.h
+[ 56%] Generating source gemm_x86_fma.cpp
+[ 56%] Generating source gemm_x86_fma.h
+[ 56%] Generating source gridsample_x86_avx.cpp
+[ 56%] Generating source gridsample_x86_avx.h
+[ 56%] Generating source gridsample_x86_avx512.cpp
+[ 56%] Generating source gridsample_x86_avx512.h
+[ 56%] Generating source gridsample_x86_fma.cpp
+[ 56%] Generating source gridsample_x86_fma.h
+[ 56%] Generating source groupnorm_x86_avx.cpp
+[ 56%] Generating source groupnorm_x86_avx.h
+[ 56%] Generating source groupnorm_x86_avx512.cpp
+[ 56%] Generating source groupnorm_x86_avx512.h
+[ 56%] Generating source groupnorm_x86_fma.cpp
+[ 56%] Generating source groupnorm_x86_fma.h
+[ 56%] Generating source hardsigmoid_x86_avx.cpp
+[ 56%] Generating source hardsigmoid_x86_avx.h
+[ 56%] Generating source hardsigmoid_x86_avx512.cpp
+[ 56%] Generating source hardsigmoid_x86_avx512.h
+[ 56%] Generating source hardsigmoid_x86_fma.cpp
+[ 56%] Generating source hardsigmoid_x86_fma.h
+[ 56%] Generating source hardswish_x86_avx.cpp
+[ 56%] Generating source hardswish_x86_avx.h
+[ 56%] Generating source hardswish_x86_avx512.cpp
+[ 56%] Generating source hardswish_x86_avx512.h
+[ 56%] Generating source hardswish_x86_fma.cpp
+[ 56%] Generating source hardswish_x86_fma.h
+[ 56%] Generating source innerproduct_x86_avx.cpp
+[ 56%] Generating source innerproduct_x86_avx.h
+[ 57%] Generating source innerproduct_x86_avx512.cpp
+[ 57%] Generating source innerproduct_x86_avx512.h
+[ 57%] Generating source innerproduct_x86_fma.cpp
+[ 57%] Generating source innerproduct_x86_fma.h
+[ 57%] Generating source interp_x86_avx.cpp
+[ 57%] Generating source interp_x86_avx.h
+[ 57%] Generating source interp_x86_avx512.cpp
+[ 57%] Generating source interp_x86_avx512.h
+[ 57%] Generating source interp_x86_fma.cpp
+[ 57%] Generating source interp_x86_fma.h
+[ 57%] Generating source layernorm_x86_avx.cpp
+[ 58%] Generating source layernorm_x86_avx.h
+[ 58%] Generating source layernorm_x86_avx512.cpp
+[ 58%] Generating source layernorm_x86_avx512.h
+[ 58%] Generating source layernorm_x86_fma.cpp
+[ 58%] Generating source layernorm_x86_fma.h
+[ 58%] Generating source lrn_x86_avx.cpp
+[ 58%] Generating source lrn_x86_avx.h
+[ 58%] Generating source lrn_x86_avx512.cpp
+[ 58%] Generating source lrn_x86_avx512.h
+[ 58%] Generating source lrn_x86_fma.cpp
+[ 58%] Generating source lrn_x86_fma.h
+[ 58%] Generating source lstm_x86_avx.cpp
+[ 58%] Generating source lstm_x86_avx.h
+[ 58%] Generating source lstm_x86_avx512.cpp
+[ 59%] Generating source lstm_x86_avx512.h
+[ 59%] Generating source lstm_x86_fma.cpp
+[ 59%] Generating source lstm_x86_fma.h
+[ 60%] Generating source matmul_x86_avx.cpp
+[ 60%] Generating source matmul_x86_avx.h
+[ 60%] Generating source matmul_x86_avx512.cpp
+[ 60%] Generating source matmul_x86_avx512.h
+[ 60%] Generating source matmul_x86_fma.cpp
+[ 60%] Generating source matmul_x86_fma.h
+[ 60%] Generating source mish_x86_avx.cpp
+[ 60%] Generating source mish_x86_avx.h
+[ 60%] Generating source mish_x86_avx512.cpp
+[ 60%] Generating source mish_x86_avx512.h
+[ 60%] Generating source mish_x86_fma.cpp
+[ 61%] Generating source mish_x86_fma.h
+[ 61%] Generating source multiheadattention_x86_avx.cpp
+[ 61%] Generating source multiheadattention_x86_avx.h
+[ 61%] Generating source multiheadattention_x86_avx512.cpp
+[ 61%] Generating source multiheadattention_x86_avx512.h
+[ 61%] Generating source multiheadattention_x86_fma.cpp
+[ 61%] Generating source multiheadattention_x86_fma.h
+[ 61%] Generating source packing_x86_avx.cpp
+[ 61%] Generating source packing_x86_avx.h
+[ 61%] Generating source packing_x86_avx512.cpp
+[ 61%] Generating source packing_x86_avx512.h
+[ 61%] Generating source packing_x86_fma.cpp
+[ 61%] Generating source packing_x86_fma.h
+[ 61%] Generating source padding_x86_avx.cpp
+[ 61%] Generating source padding_x86_avx.h
+[ 61%] Generating source padding_x86_avx512.cpp
+[ 61%] Generating source padding_x86_avx512.h
+[ 61%] Generating source padding_x86_fma.cpp
+[ 62%] Generating source padding_x86_fma.h
+[ 62%] Generating source pooling_x86_avx.h
+[ 62%] Generating source pooling_x86_avx.cpp
+[ 62%] Generating source pooling_x86_avx512.cpp
+[ 62%] Generating source pooling_x86_avx512.h
+[ 62%] Generating source pooling_x86_fma.cpp
+[ 63%] Generating source pooling_x86_fma.h
+[ 63%] Generating source prelu_x86_avx.cpp
+[ 63%] Generating source prelu_x86_avx.h
+[ 63%] Generating source prelu_x86_avx512.cpp
+[ 63%] Generating source prelu_x86_avx512.h
+[ 63%] Generating source prelu_x86_fma.cpp
+[ 63%] Generating source prelu_x86_fma.h
+[ 63%] Generating source quantize_x86_avx.cpp
+[ 63%] Generating source quantize_x86_avx.h
+[ 63%] Generating source quantize_x86_avx512.cpp
+[ 63%] Generating source quantize_x86_avx512.h
+[ 63%] Generating source quantize_x86_fma.cpp
+[ 63%] Generating source quantize_x86_fma.h
+[ 63%] Generating source relu_x86_avx.cpp
+[ 63%] Generating source relu_x86_avx.h
+[ 63%] Generating source relu_x86_avx512.cpp
+[ 63%] Generating source relu_x86_avx512.h
+[ 64%] Generating source relu_x86_fma.cpp
+[ 64%] Generating source relu_x86_fma.h
+[ 64%] Generating source requantize_x86_avx.cpp
+[ 64%] Generating source requantize_x86_avx.h
+[ 64%] Generating source requantize_x86_avx512.cpp
+[ 64%] Generating source requantize_x86_avx512.h
+[ 64%] Generating source requantize_x86_fma.cpp
+[ 64%] Generating source requantize_x86_fma.h
+[ 64%] Generating source reshape_x86_avx.cpp
+[ 64%] Generating source reshape_x86_avx.h
+[ 64%] Generating source reshape_x86_avx512.cpp
+[ 64%] Generating source reshape_x86_avx512.h
+[ 64%] Generating source reshape_x86_fma.cpp
+[ 64%] Generating source reshape_x86_fma.h
+[ 65%] Generating source roialign_x86_avx.cpp
+[ 65%] Generating source roialign_x86_avx.h
+[ 65%] Generating source roialign_x86_avx512.cpp
+[ 65%] Generating source roialign_x86_avx512.h
+[ 65%] Generating source roialign_x86_fma.cpp
+[ 65%] Generating source roialign_x86_fma.h
+[ 65%] Generating source scale_x86_avx.cpp
+[ 66%] Generating source scale_x86_avx.h
+[ 66%] Generating source scale_x86_avx512.cpp
+[ 66%] Generating source scale_x86_avx512.h
+[ 66%] Generating source scale_x86_fma.cpp
+[ 66%] Generating source scale_x86_fma.h
+[ 66%] Generating source selu_x86_avx.cpp
+[ 66%] Generating source selu_x86_avx.h
+[ 67%] Generating source selu_x86_avx512.cpp
+[ 67%] Generating source selu_x86_avx512.h
+[ 67%] Generating source selu_x86_fma.cpp
+[ 67%] Generating source selu_x86_fma.h
+[ 67%] Generating source shufflechannel_x86_avx.cpp
+[ 67%] Generating source shufflechannel_x86_avx.h
+[ 67%] Generating source shufflechannel_x86_avx512.cpp
+[ 67%] Generating source shufflechannel_x86_avx512.h
+[ 67%] Generating source shufflechannel_x86_fma.cpp
+[ 67%] Generating source shufflechannel_x86_fma.h
+[ 67%] Generating source sigmoid_x86_avx.cpp
+[ 67%] Generating source sigmoid_x86_avx.h
+[ 67%] Generating source sigmoid_x86_avx512.cpp
+[ 67%] Generating source sigmoid_x86_avx512.h
+[ 67%] Generating source sigmoid_x86_fma.cpp
+[ 67%] Generating source sigmoid_x86_fma.h
+[ 68%] Generating source slice_x86_avx.cpp
+[ 68%] Generating source slice_x86_avx.h
+[ 68%] Generating source slice_x86_avx512.cpp
+[ 68%] Generating source slice_x86_avx512.h
+[ 68%] Generating source slice_x86_fma.cpp
+[ 68%] Generating source slice_x86_fma.h
+[ 68%] Generating source softmax_x86_avx.cpp
+[ 68%] Generating source softmax_x86_avx.h
+[ 68%] Generating source softmax_x86_avx512.cpp
+[ 68%] Generating source softmax_x86_avx512.h
+[ 68%] Generating source softmax_x86_fma.cpp
+[ 68%] Generating source softmax_x86_fma.h
+[ 68%] Generating source swish_x86_avx.cpp
+[ 68%] Generating source swish_x86_avx.h
+[ 68%] Generating source swish_x86_avx512.cpp
+[ 68%] Generating source swish_x86_avx512.h
+[ 68%] Generating source swish_x86_fma.cpp
+[ 68%] Generating source swish_x86_fma.h
+[ 68%] Generating source tanh_x86_avx.cpp
+[ 68%] Generating source tanh_x86_avx.h
+[ 68%] Generating source tanh_x86_avx512.cpp
+[ 68%] Generating source tanh_x86_avx512.h
+[ 68%] Generating source tanh_x86_fma.cpp
+[ 68%] Generating source tanh_x86_fma.h
+[ 68%] Generating source unaryop_x86_avx.cpp
+[ 68%] Generating source unaryop_x86_avx.h
+[ 69%] Generating source unaryop_x86_avx512.cpp
+[ 69%] Generating source unaryop_x86_avx512.h
+[ 69%] Generating source unaryop_x86_fma.cpp
+[ 69%] Generating source unaryop_x86_fma.h
+[ 69%] Generating source yolov3detectionoutput_x86_avx.cpp
+[ 69%] Generating source yolov3detectionoutput_x86_avx.h
+[ 69%] Generating source yolov3detectionoutput_x86_avx512.cpp
+[ 69%] Generating source yolov3detectionoutput_x86_avx512.h
+[ 69%] Generating source yolov3detectionoutput_x86_fma.cpp
+[ 70%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/allocator.cpp.o
+[ 70%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/benchmark.cpp.o
+[ 70%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/blob.cpp.o
+[ 70%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/c_api.cpp.o
+[ 70%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/command.cpp.o
+[ 70%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/cpu.cpp.o
+[ 70%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/datareader.cpp.o
+[ 70%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/gpu.cpp.o
+[ 70%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer.cpp.o
+[ 70%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/mat.cpp.o
+[ 70%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o
+[ 70%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o
+[ 70%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_drawing.cpp.o
+[ 71%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o
+[ 71%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o
+[ 71%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/modelbin.cpp.o
+[ 71%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/net.cpp.o
+[ 71%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/option.cpp.o
+[ 71%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/paramdict.cpp.o
+[ 71%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/pipeline.cpp.o
+[ 71%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/pipelinecache.cpp.o
+[ 71%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/simpleocv.cpp.o
+[ 71%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/simpleomp.cpp.o
+[ 71%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/simplestl.cpp.o
+[ 71%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/simplemath.cpp.o
+[ 71%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o
+[ 72%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.o
+[ 72%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o
+[ 72%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86.cpp.o
+[ 72%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.o
+[ 72%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_avx512.cpp.o
+[ 72%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_fma.cpp.o
+[ 72%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_avx.cpp.o
+[ 72%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o
+[ 72%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bias_x86.cpp.o
+[ 72%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bias_x86_avx512.cpp.o
+[ 72%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bias_x86_fma.cpp.o
+[ 72%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bias_x86_avx.cpp.o
+[ 72%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o
+[ 73%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86.cpp.o
+[ 73%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_avx512.cpp.o
+[ 73%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_fma.cpp.o
+[ 73%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_avx.cpp.o
+[ 73%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o
+[ 73%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/concat_x86.cpp.o
+[ 73%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.o
+[ 73%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/concat_x86_avx512.cpp.o
+[ 73%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/concat_x86_fma.cpp.o
+[ 73%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/concat_x86_avx.cpp.o
+[ 73%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o
+[ 73%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o
+[ 73%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.o
+[ 74%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx512.cpp.o
+[ 74%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_fma.cpp.o
+[ 74%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx.cpp.o
+[ 74%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx512vnni.cpp.o
+[ 74%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avxvnni.cpp.o
+[ 74%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx2.cpp.o
+[ 74%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_xop.cpp.o
+[ 74%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o
+[ 74%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/crop_x86.cpp.o
+[ 74%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.o
+[ 74%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_avx512.cpp.o
+[ 74%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_fma.cpp.o
+[ 74%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_avx.cpp.o
+[ 75%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o
+[ 75%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86.cpp.o
+[ 75%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.o
+[ 75%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_avx512.cpp.o
+[ 75%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_fma.cpp.o
+[ 75%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_avx.cpp.o
+[ 75%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o
+[ 75%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86.cpp.o
+[ 75%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.o
+[ 75%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_avx512.cpp.o
+[ 75%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_fma.cpp.o
+[ 75%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_avx.cpp.o
+[ 75%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o
+[ 76%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86.cpp.o
+[ 76%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.o
+[ 76%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_avx512.cpp.o
+[ 76%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_fma.cpp.o
+[ 76%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_avx.cpp.o
+[ 76%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o
+[ 76%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/elu_x86.cpp.o
+[ 76%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/elu_vulkan.cpp.o
+[ 76%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_avx512.cpp.o
+[ 76%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_fma.cpp.o
+[ 76%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_avx.cpp.o
+[ 76%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o
+[ 76%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o
+[ 77%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o
+[ 77%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86.cpp.o
+[ 77%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.o
+[ 77%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_avx512.cpp.o
+[ 77%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_fma.cpp.o
+[ 77%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_avx.cpp.o
+[ 77%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o
+[ 77%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86.cpp.o
+[ 77%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.o
+[ 77%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_avx512.cpp.o
+[ 77%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_fma.cpp.o
+[ 77%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_avx.cpp.o
+[ 78%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_f16c.cpp.o
+[ 78%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/input.cpp.o
+[ 78%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/log.cpp.o
+[ 78%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o
+[ 78%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86.cpp.o
+[ 78%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.o
+[ 78%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_avx512.cpp.o
+[ 78%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_fma.cpp.o
+[ 78%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_avx.cpp.o
+[ 78%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o
+[ 78%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.o
+[ 78%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o
+[ 78%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o
+[ 79%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86.cpp.o
+[ 79%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.o
+[ 79%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_avx512.cpp.o
+[ 79%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_fma.cpp.o
+[ 79%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_avx.cpp.o
+[ 79%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/power.cpp.o
+[ 79%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o
+[ 79%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86.cpp.o
+[ 79%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.o
+[ 79%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_avx512.cpp.o
+[ 79%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_fma.cpp.o
+[ 79%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_avx.cpp.o
+[ 79%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o
+[ 80%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o
+[ 80%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o
+[ 80%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/relu_x86.cpp.o
+[ 80%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.o
+[ 80%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_avx512.cpp.o
+[ 80%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_fma.cpp.o
+[ 80%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_avx.cpp.o
+[ 80%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o
+[ 80%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86.cpp.o
+[ 80%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.o
+[ 80%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86_avx512.cpp.o
+[ 80%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86_fma.cpp.o
+[ 80%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86_avx.cpp.o
+[ 81%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o
+[ 81%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o
+[ 81%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/scale_x86.cpp.o
+[ 81%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.o
+[ 81%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_avx512.cpp.o
+[ 81%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_fma.cpp.o
+[ 81%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_avx.cpp.o
+[ 81%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o
+[ 81%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86.cpp.o
+[ 81%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.o
+[ 81%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_avx512.cpp.o
+[ 81%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_fma.cpp.o
+[ 81%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_avx.cpp.o
+[ 82%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o
+[ 82%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/slice_x86.cpp.o
+[ 82%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.o
+[ 82%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/slice_x86_avx512.cpp.o
+[ 82%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/slice_x86_fma.cpp.o
+[ 82%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/slice_x86_avx.cpp.o
+[ 82%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o
+[ 82%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86.cpp.o
+[ 82%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.o
+[ 82%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_avx512.cpp.o
+[ 82%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_fma.cpp.o
+[ 82%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_avx.cpp.o
+[ 82%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/split.cpp.o
+[ 83%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o
+[ 83%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86.cpp.o
+[ 83%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.o
+[ 83%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_avx512.cpp.o
+[ 83%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_fma.cpp.o
+[ 83%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_avx.cpp.o
+[ 83%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o
+[ 83%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/tile.cpp.o
+[ 83%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/rnn.cpp.o
+[ 83%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.o
+[ 83%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86.cpp.o
+[ 83%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_avx512.cpp.o
+[ 83%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_fma.cpp.o
+[ 84%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_avx.cpp.o
+[ 84%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o
+[ 84%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86.cpp.o
+[ 84%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.o
+[ 84%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_avx512.cpp.o
+[ 84%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_fma.cpp.o
+[ 84%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_avx.cpp.o
+[ 84%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o
+[ 84%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86.cpp.o
+[ 84%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.o
+[ 84%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_avx512.cpp.o
+[ 84%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_fma.cpp.o
+[ 84%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_avx.cpp.o
+[ 85%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o
+[ 85%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.o
+[ 85%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.o
+[ 85%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_avx512.cpp.o
+[ 85%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_fma.cpp.o
+[ 85%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_avx.cpp.o
+[ 85%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o
+[ 85%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/padding_x86.cpp.o
+[ 85%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.o
+[ 85%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_avx512.cpp.o
+[ 85%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_fma.cpp.o
+[ 85%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_avx.cpp.o
+[ 85%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o
+[ 86%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o
+[ 86%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o
+[ 86%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.o
+[ 86%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o
+[ 86%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.o
+[ 86%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o
+[ 86%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.o
+[ 86%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o
+[ 86%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o
+[ 86%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/interp_x86.cpp.o
+[ 86%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.o
+[ 86%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_avx512.cpp.o
+[ 87%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_fma.cpp.o
+[ 87%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_avx.cpp.o
+[ 87%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o
+[ 87%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86.cpp.o
+[ 87%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.o
+[ 87%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_avx512.cpp.o
+[ 87%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_fma.cpp.o
+[ 87%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_avx.cpp.o
+[ 87%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o
+[ 87%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/shufflechannel_x86.cpp.o
+[ 87%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.o
+[ 87%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/shufflechannel_x86_avx512.cpp.o
+[ 87%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/shufflechannel_x86_fma.cpp.o
+[ 88%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/shufflechannel_x86_avx.cpp.o
+[ 88%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o
+[ 88%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o
+[ 88%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o
+[ 88%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/clip_x86.cpp.o
+[ 88%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.o
+[ 88%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_avx512.cpp.o
+[ 88%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_fma.cpp.o
+[ 88%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_avx.cpp.o
+[ 88%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o
+[ 88%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.o
+[ 88%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o
+[ 88%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o
+[ 89%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86.cpp.o
+[ 89%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_avx512.cpp.o
+[ 89%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_fma.cpp.o
+[ 89%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_avx.cpp.o
+[ 89%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o
+[ 89%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86.cpp.o
+[ 89%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_avx512.cpp.o
+[ 89%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_fma.cpp.o
+[ 89%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_avx.cpp.o
+[ 89%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o
+[ 89%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86.cpp.o
+[ 89%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86_avx512.cpp.o
+[ 89%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86_fma.cpp.o
+[ 90%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86_avx.cpp.o
+[ 90%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o
+[ 90%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/roialign.cpp.o
+[ 90%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86.cpp.o
+[ 90%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_avx512.cpp.o
+[ 90%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_fma.cpp.o
+[ 90%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_avx.cpp.o
+[ 90%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o
+[ 90%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/packing_x86.cpp.o
+[ 90%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.o
+[ 90%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_avx512.cpp.o
+[ 90%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_fma.cpp.o
+[ 90%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_avx.cpp.o
+[ 91%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o
+[ 91%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86.cpp.o
+[ 91%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_avx512.cpp.o
+[ 91%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_fma.cpp.o
+[ 91%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_avx.cpp.o
+[ 91%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o
+[ 91%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cast_x86.cpp.o
+[ 91%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.o
+[ 91%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx512.cpp.o
+[ 91%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_fma.cpp.o
+[ 91%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx.cpp.o
+[ 91%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx512bf16.cpp.o
+[ 91%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx2.cpp.o
+[ 92%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_f16c.cpp.o
+[ 92%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o
+[ 92%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86.cpp.o
+[ 92%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.o
+[ 92%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_avx512.cpp.o
+[ 92%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_fma.cpp.o
+[ 92%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_avx.cpp.o
+[ 92%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o
+[ 92%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/selu_x86.cpp.o
+[ 92%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/selu_x86_avx512.cpp.o
+[ 92%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/selu_x86_fma.cpp.o
+[ 92%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/selu_x86_avx.cpp.o
+[ 92%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o
+[ 93%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86.cpp.o
+[ 93%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.o
+[ 93%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_avx512.cpp.o
+[ 93%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_fma.cpp.o
+[ 93%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_avx.cpp.o
+[ 93%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o
+[ 93%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.o
+[ 93%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.o
+[ 93%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.o
+[ 93%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.o
+[ 93%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/mish.cpp.o
+[ 93%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/mish_x86.cpp.o
+[ 93%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.o
+[ 94%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_avx512.cpp.o
+[ 94%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_fma.cpp.o
+[ 94%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_avx.cpp.o
+[ 94%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.o
+[ 94%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/swish.cpp.o
+[ 94%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/swish_x86.cpp.o
+[ 94%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.o
+[ 94%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_avx512.cpp.o
+[ 94%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_fma.cpp.o
+[ 94%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_avx.cpp.o
+[ 94%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.o
+[ 94%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86.cpp.o
+[ 94%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/gemm_vulkan.cpp.o
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/vulkan/gemm_vulkan.cpp: In member function ‘virtual int ncnn::Gemm_vulkan::forward(const std::vector<ncnn::VkMat>&, std::vector<ncnn::VkMat>&, ncnn::VkCompute&, const ncnn::Option&) const’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/vulkan/gemm_vulkan.cpp:218:9: warning: unused variable ‘elempack’ [-Wunused-variable]
+  218 |     int elempack = A.elempack;
+      |         ^~~~~~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/vulkan/gemm_vulkan.cpp: In member function ‘virtual int ncnn::Gemm_vulkan::forward(const std::vector<ncnn::VkImageMat>&, std::vector<ncnn::VkImageMat>&, ncnn::VkCompute&, const ncnn::Option&) const’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/vulkan/gemm_vulkan.cpp:350:9: warning: unused variable ‘elempack’ [-Wunused-variable]
+  350 |     int elempack = A.elempack;
+      |         ^~~~~~~~
+[ 95%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_avx512.cpp.o
+[ 95%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_fma.cpp.o
+[ 95%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_avx.cpp.o
+[ 95%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.o
+[ 95%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86.cpp.o
+[ 95%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_avx512.cpp.o
+[ 95%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_fma.cpp.o
+[ 95%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_avx.cpp.o
+[ 95%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.o
+[ 95%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86.cpp.o
+[ 95%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_avx512.cpp.o
+[ 95%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_fma.cpp.o
+[ 96%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_avx.cpp.o
+[ 96%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/softplus.cpp.o
+[ 96%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/gru.cpp.o
+[ 96%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o
+[ 96%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86.cpp.o
+[ 96%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/multiheadattention_vulkan.cpp.o
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/vulkan/multiheadattention_vulkan.cpp: In member function ‘virtual int ncnn::MultiHeadAttention_vulkan::forward(const std::vector<ncnn::VkMat>&, std::vector<ncnn::VkMat>&, ncnn::VkCompute&, const ncnn::Option&) const’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/vulkan/multiheadattention_vulkan.cpp:316:15: warning: unused variable ‘embed_dim_per_head’ [-Wunused-variable]
+  316 |     const int embed_dim_per_head = embed_dim / num_heads;
+      |               ^~~~~~~~~~~~~~~~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/vulkan/multiheadattention_vulkan.cpp:317:15: warning: unused variable ‘src_seqlen’ [-Wunused-variable]
+  317 |     const int src_seqlen = q_blob.h * q_blob.elempack;
+      |               ^~~~~~~~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/vulkan/multiheadattention_vulkan.cpp:318:15: warning: unused variable ‘dst_seqlen’ [-Wunused-variable]
+  318 |     const int dst_seqlen = k_blob.h * k_blob.elempack;
+      |               ^~~~~~~~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/vulkan/multiheadattention_vulkan.cpp: In member function ‘virtual int ncnn::MultiHeadAttention_vulkan::forward(const std::vector<ncnn::VkImageMat>&, std::vector<ncnn::VkImageMat>&, ncnn::VkCompute&, const ncnn::Option&) const’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/vulkan/multiheadattention_vulkan.cpp:538:15: warning: unused variable ‘embed_dim_per_head’ [-Wunused-variable]
+  538 |     const int embed_dim_per_head = embed_dim / num_heads;
+      |               ^~~~~~~~~~~~~~~~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/vulkan/multiheadattention_vulkan.cpp:539:15: warning: unused variable ‘src_seqlen’ [-Wunused-variable]
+  539 |     const int src_seqlen = q_blob.h * q_blob.elempack;
+      |               ^~~~~~~~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/vulkan/multiheadattention_vulkan.cpp:540:15: warning: unused variable ‘dst_seqlen’ [-Wunused-variable]
+  540 |     const int dst_seqlen = k_blob.h * k_blob.elempack;
+      |               ^~~~~~~~~~
+[ 96%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86_avx512.cpp.o
+[ 96%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86_fma.cpp.o
+[ 96%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86_avx.cpp.o
+[ 96%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o
+[ 96%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86.cpp.o
+[ 96%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/gelu_vulkan.cpp.o
+[ 96%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_avx512.cpp.o
+[ 97%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_fma.cpp.o
+[ 97%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_avx.cpp.o
+[ 97%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/convolution1d.cpp.o
+[ 97%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86.cpp.o
+[ 97%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution1d_vulkan.cpp.o
+[ 97%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_avx512.cpp.o
+[ 97%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_fma.cpp.o
+[ 97%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_avx.cpp.o
+[ 97%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/pooling1d.cpp.o
+[ 97%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise1d.cpp.o
+[ 97%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/convolution3d.cpp.o
+[ 97%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise3d.cpp.o
+[ 97%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/pooling3d.cpp.o
+[ 98%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/matmul.cpp.o
+[ 98%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86.cpp.o
+[ 98%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86_avx512.cpp.o
+[ 98%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86_fma.cpp.o
+[ 98%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86_avx.cpp.o
+[ 98%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolution1d.cpp.o
+[ 98%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise1d.cpp.o
+[ 98%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolution3d.cpp.o
+[ 98%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise3d.cpp.o
+[ 98%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/einsum.cpp.o
+[ 98%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/deformableconv2d.cpp.o
+[ 98%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86.cpp.o
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_x86.cpp:36:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4.h: In function ‘void ncnn::deformableconv2d_pack4_sse(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_x86.cpp:37:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to4.h: In function ‘void ncnn::deformableconv2d_pack1to4_sse(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to4.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to4.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_x86.cpp:38:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to1.h: In function ‘void ncnn::deformableconv2d_pack4to1_sse(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to1.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to1.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_x86.cpp: In member function ‘virtual int ncnn::DeformableConv2D_x86::forward(const std::vector<ncnn::Mat>&, std::vector<ncnn::Mat>&, const ncnn::Option&) const’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_x86.cpp:270:15: warning: unused variable ‘num_input’ [-Wunused-variable]
+  270 |     const int num_input = channels * elempack;
+      |               ^~~~~~~~~
+[ 98%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86_avx512.cpp.o
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx512.cpp:36:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4.h: In function ‘void ncnn::deformableconv2d_pack4_sse(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx512.cpp:37:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to4.h: In function ‘void ncnn::deformableconv2d_pack1to4_sse(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to4.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to4.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx512.cpp:38:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to1.h: In function ‘void ncnn::deformableconv2d_pack4to1_sse(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to1.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to1.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx512.cpp:41:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8.h: In function ‘void ncnn::deformableconv2d_pack8_avx(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx512.cpp:42:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to8.h: In function ‘void ncnn::deformableconv2d_pack4to8_avx(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to8.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to8.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx512.cpp:43:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to8.h: In function ‘void ncnn::deformableconv2d_pack1to8_avx(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to8.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to8.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx512.cpp:44:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to4.h: In function ‘void ncnn::deformableconv2d_pack8to4_avx(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to4.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to4.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx512.cpp:45:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to1.h: In function ‘void ncnn::deformableconv2d_pack8to1_avx(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to1.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to1.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx512.cpp:48:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack16.h: In function ‘void ncnn::deformableconv2d_pack16_avx512(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack16.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack16.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx512.cpp:49:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to16.h: In function ‘void ncnn::deformableconv2d_pack8to16_avx512(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to16.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to16.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx512.cpp:50:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to16.h: In function ‘void ncnn::deformableconv2d_pack4to16_avx512(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to16.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to16.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx512.cpp:51:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to16.h: In function ‘void ncnn::deformableconv2d_pack1to16_avx512(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to16.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to16.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx512.cpp:52:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack16to8.h: In function ‘void ncnn::deformableconv2d_pack16to8_avx512(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack16to8.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack16to8.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx512.cpp:53:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack16to4.h: In function ‘void ncnn::deformableconv2d_pack16to4_avx512(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack16to4.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack16to4.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx512.cpp:54:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack16to1.h: In function ‘void ncnn::deformableconv2d_pack16to1_avx512(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack16to1.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack16to1.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx512.cpp: In member function ‘virtual int ncnn::DeformableConv2D_x86_avx512::forward(const std::vector<ncnn::Mat>&, std::vector<ncnn::Mat>&, const ncnn::Option&) const’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx512.cpp:270:15: warning: unused variable ‘num_input’ [-Wunused-variable]
+  270 |     const int num_input = channels * elempack;
+      |               ^~~~~~~~~
+[ 99%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86_fma.cpp.o
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_fma.cpp:36:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4.h: In function ‘void ncnn::deformableconv2d_pack4_sse(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_fma.cpp:37:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to4.h: In function ‘void ncnn::deformableconv2d_pack1to4_sse(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to4.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to4.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_fma.cpp:38:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to1.h: In function ‘void ncnn::deformableconv2d_pack4to1_sse(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to1.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to1.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_fma.cpp:41:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8.h: In function ‘void ncnn::deformableconv2d_pack8_avx(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_fma.cpp:42:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to8.h: In function ‘void ncnn::deformableconv2d_pack4to8_avx(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to8.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to8.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_fma.cpp:43:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to8.h: In function ‘void ncnn::deformableconv2d_pack1to8_avx(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to8.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to8.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_fma.cpp:44:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to4.h: In function ‘void ncnn::deformableconv2d_pack8to4_avx(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to4.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to4.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_fma.cpp:45:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to1.h: In function ‘void ncnn::deformableconv2d_pack8to1_avx(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to1.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to1.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_fma.cpp: In member function ‘virtual int ncnn::DeformableConv2D_x86_fma::forward(const std::vector<ncnn::Mat>&, std::vector<ncnn::Mat>&, const ncnn::Option&) const’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_fma.cpp:270:15: warning: unused variable ‘num_input’ [-Wunused-variable]
+  270 |     const int num_input = channels * elempack;
+      |               ^~~~~~~~~
+[ 99%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86_avx.cpp.o
+[ 99%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/glu.cpp.o
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx.cpp:36:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4.h: In function ‘void ncnn::deformableconv2d_pack4_sse(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx.cpp:37:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to4.h: In function ‘void ncnn::deformableconv2d_pack1to4_sse(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to4.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to4.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx.cpp:38:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to1.h: In function ‘void ncnn::deformableconv2d_pack4to1_sse(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to1.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to1.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx.cpp:41:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8.h: In function ‘void ncnn::deformableconv2d_pack8_avx(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx.cpp:42:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to8.h: In function ‘void ncnn::deformableconv2d_pack4to8_avx(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to8.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack4to8.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx.cpp:43:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to8.h: In function ‘void ncnn::deformableconv2d_pack1to8_avx(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to8.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack1to8.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx.cpp:44:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to4.h: In function ‘void ncnn::deformableconv2d_pack8to4_avx(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to4.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to4.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+In file included from /home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx.cpp:45:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to1.h: In function ‘void ncnn::deformableconv2d_pack8to1_avx(const std::vector<Mat>&, Mat&, const Mat&, const Mat&, int, int, int, int, int, int, int, int, int, const Mat&, const Option&)’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to1.h:30:15: warning: unused variable ‘size’ [-Wunused-variable]
+   30 |     const int size = outw * outh;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/x86/deformableconv2d_pack8to1.h:31:15: warning: unused variable ‘maxk’ [-Wunused-variable]
+   31 |     const int maxk = kernel_w * kernel_h;
+      |               ^~~~
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx.cpp: In member function ‘virtual int ncnn::DeformableConv2D_x86_avx::forward(const std::vector<ncnn::Mat>&, std::vector<ncnn::Mat>&, const ncnn::Option&) const’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/build/external/ncnn/src/layer/x86/deformableconv2d_x86_avx.cpp:270:15: warning: unused variable ‘num_input’ [-Wunused-variable]
+  270 |     const int num_input = channels * elempack;
+      |               ^~~~~~~~~
+[ 99%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/fold.cpp.o
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/fold.cpp: In member function ‘virtual int ncnn::Fold::forward(const ncnn::Mat&, ncnn::Mat&, const ncnn::Option&) const’:
+/home/runner/work/GFPGAN-ncnn-vulkan/GFPGAN-ncnn-vulkan/src/external/ncnn/src/layer/fold.cpp:44:15: warning: unused variable ‘size’ [-Wunused-variable]
+   44 |     const int size = bottom_blob.w;
+      |               ^~~~
+[ 99%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/unfold.cpp.o
+[ 99%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/gridsample.cpp.o
+[ 99%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/gridsample_x86.cpp.o
+[ 99%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/gridsample_x86_avx512.cpp.o
+[ 99%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/gridsample_x86_fma.cpp.o
+[ 99%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/x86/gridsample_x86_avx.cpp.o
+[ 99%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/cumulativesum.cpp.o
+[ 99%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/copyto.cpp.o
+[ 99%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/erf.cpp.o
+[100%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/erf_vulkan.cpp.o
+[100%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/diag.cpp.o
+[100%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/celu.cpp.o
+[100%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/celu_vulkan.cpp.o
+[100%] Building CXX object external/ncnn/src/CMakeFiles/ncnn.dir/layer/shrink.cpp.o
+[100%] Linking CXX static library libncnn.a
+[100%] Built target ncnn
+[100%] Building CXX object CMakeFiles/gfpgan-ncnn-vulkan.dir/gfpgan-ncnn-vulkan-demo.cpp.o
+[100%] Building CXX object CMakeFiles/gfpgan-ncnn-vulkan.dir/gfpgan.cpp.o
+[100%] Building CXX object CMakeFiles/gfpgan-ncnn-vulkan.dir/face.cpp.o
+[100%] Building CXX object CMakeFiles/gfpgan-ncnn-vulkan.dir/realesrgan.cpp.o
+[100%] Linking CXX executable gfpgan-ncnn-vulkan
+[100%] Built target gfpgan-ncnn-vulkan
