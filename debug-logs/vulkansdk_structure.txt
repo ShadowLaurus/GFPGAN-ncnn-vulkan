@@ -1,0 +1,766 @@
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026 10:26 PM                Bin
+d----           7/27/2026 10:26 PM                cmake
+d----           7/27/2026 10:26 PM                Config
+d----            9/8/2026 12:24 PM                Helpers
+d----           7/27/2026  8:59 PM                Include
+d----            9/8/2026 12:23 PM                installerResources
+d----           7/27/2026  8:59 PM                Lib
+d----            9/8/2026 12:24 PM                Licenses
+d----            5/4/2026  4:36 PM                share
+d----            5/4/2026  4:36 PM                Source
+d----            5/4/2026  4:36 PM                Templates
+-a---            9/8/2026 12:24 PM           1243 components.xml
+-a---            9/8/2026 12:24 PM          30696 InstallationLog.txt
+-a---            9/8/2026 12:24 PM             48 installer.dat
+-a---            9/8/2026 12:24 PM          59108 maintenancetool.dat
+-a---            9/8/2026 12:24 PM       34729472 maintenancetool.exe
+-a---            9/8/2026 12:24 PM           5333 maintenancetool.ini
+-a---            9/8/2026 12:24 PM            483 network.xml
+-a---            5/4/2026  4:36 PM            337 README.txt
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Bin
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:25 PM                slang-standard-module-2026.13.1
+-a---           7/27/2026 10:23 PM        1105336 dxc.exe
+-a---           7/27/2026  8:13 PM       17313792 dxc.pdb
+-a---           7/27/2026 10:23 PM       21728696 dxcompiler.dll
+-a---           7/27/2026  8:13 PM      244944896 dxcompiler.pdb
+-a---           7/27/2026 10:23 PM        1129400 gfx.dll
+-a---           7/27/2026  8:21 PM          59042 gfx.slang
+-a---           7/27/2026  8:39 PM          14739 gfxrecon-capture-vulkan.py
+-a---           7/27/2026  8:39 PM           2052 gfxrecon-capture.py
+-a---           7/27/2026 10:23 PM         816056 gfxrecon-compress.exe
+-a---           7/27/2026 10:23 PM       10769336 gfxrecon-convert.exe
+-a---           7/27/2026 10:23 PM        6394808 gfxrecon-extract.exe
+-a---           7/27/2026 10:23 PM        6602168 gfxrecon-info.exe
+-a---           7/27/2026 10:23 PM        6608824 gfxrecon-optimize.exe
+-a---           7/27/2026 10:23 PM       16488376 gfxrecon-replay.exe
+-a---           7/27/2026  8:39 PM           5756 gfxrecon.py
+-a---           7/27/2026 10:23 PM         286136 glslang-default-resource-limits.dll
+-a---           7/27/2026 10:23 PM         582072 glslang-default-resource-limitsd.dll
+-a---           7/27/2026 10:23 PM        8684984 glslang.dll
+-a---           7/27/2026 10:23 PM        8764856 glslang.exe
+-a---           7/27/2026 10:23 PM       21054904 glslangd.dll
+-a---           7/27/2026 10:23 PM        5101496 glslangValidator.exe
+-a---           7/27/2026 10:23 PM        5264312 glslc.exe
+-a---           7/27/2026 10:23 PM        5182904 shaderc_shared.dll
+-a---           7/27/2026 10:23 PM       26432440 slang-compiler.dll
+-a---           7/27/2026 10:23 PM        1295288 slang-glsl-module.dll
+-a---           7/27/2026 10:23 PM        7451576 slang-glslang.dll
+-a---           7/27/2026 10:23 PM         586680 slang-rt.dll
+-a---           7/27/2026 10:23 PM          75192 slang.dll
+-a---           7/27/2026 10:24 PM         172984 slang.exe
+-a---           7/27/2026  8:21 PM          13700 slang.slang
+-a---           7/27/2026 10:24 PM         179640 slangc.exe
+-a---           7/27/2026 10:24 PM          54712 slangd.exe
+-a---           7/27/2026 10:24 PM         170936 slangi.exe
+-a---           7/27/2026 10:24 PM         881592 spirv-as.exe
+-a---           7/27/2026 10:24 PM         815032 spirv-cfg.exe
+-a---           7/27/2026 10:24 PM        2183096 spirv-cross-c-shared.dll
+-a---           7/27/2026 10:24 PM        2266552 spirv-cross.exe
+-a---           7/27/2026 10:24 PM        4012472 spirv-diff.exe
+-a---           7/27/2026 10:24 PM         967096 spirv-dis.exe
+-a---           7/27/2026 10:24 PM        4087224 spirv-link.exe
+-a---           7/27/2026 10:24 PM        3920824 spirv-lint.exe
+-a---           7/27/2026 10:24 PM         424888 spirv-objdump.exe
+-a---           7/27/2026 10:24 PM        5681080 spirv-opt.exe
+-a---           7/27/2026 10:24 PM        4007352 spirv-reduce.exe
+-a---           7/27/2026 10:24 PM         327608 spirv-reflect-pp.exe
+-a---           7/27/2026 10:24 PM         327608 spirv-reflect.exe
+-a---           7/27/2026 10:24 PM        1763256 SPIRV-Tools-shared.dll
+-a---           7/27/2026 10:24 PM        2713016 spirv-val.exe
+-a---           7/27/2026 10:24 PM          44984 SPIRV.dll
+-a---           7/27/2026 10:24 PM       42735544 vkconfig-gui.exe
+-a---           7/27/2026 10:24 PM       41121208 vkconfig.exe
+-a---           7/27/2026 10:25 PM        1129400 vkcube.exe
+-a---           7/27/2026 10:25 PM        1873848 vkcubepp.exe
+-a---           7/27/2026 10:25 PM        8399800 VkLayer_api_dump.dll
+-a---           7/27/2026  8:53 PM          13848 VkLayer_api_dump.json
+-a---           7/27/2026  8:53 PM       32010240 VkLayer_api_dump.pdb
+-a---           7/27/2026 10:25 PM        3043768 VkLayer_crash_diagnostic.dll
+-a---           7/27/2026  8:45 PM          23110 VkLayer_crash_diagnostic.json
+-a---           7/27/2026  8:48 PM       27947008 VkLayer_crash_diagnostic.pdb
+-a---           7/27/2026 10:25 PM        6653368 VkLayer_gfxreconstruct.dll
+-a---           7/27/2026  8:40 PM          29195 VkLayer_gfxreconstruct.json
+-a---           7/27/2026 10:25 PM        1513400 VkLayer_khronos_profiles.dll
+-a---           7/27/2026  8:54 PM          66696 VkLayer_khronos_profiles.json
+-a---           7/27/2026  8:54 PM       14028800 VkLayer_khronos_profiles.pdb
+-a---           7/27/2026 10:25 PM         416184 VkLayer_khronos_shader_object.dll
+-a---           7/27/2026  8:54 PM           4455 VkLayer_khronos_shader_object.json
+-a---           7/27/2026  8:54 PM        9613312 VkLayer_khronos_shader_object.pdb
+-a---           7/27/2026 10:25 PM         377272 VkLayer_khronos_synchronization2.dll
+-a---           7/27/2026  8:54 PM           1910 VkLayer_khronos_synchronization2.json
+-a---           7/27/2026  8:54 PM        9949184 VkLayer_khronos_synchronization2.pdb
+-a---           7/27/2026 10:25 PM       21681592 VkLayer_khronos_validation.dll
+-a---           7/27/2026  8:43 PM         129847 VkLayer_khronos_validation.json
+-a---           7/27/2026  8:45 PM      127668224 VkLayer_khronos_validation.pdb
+-a---           7/27/2026 10:25 PM         155576 VkLayer_monitor.dll
+-a---           7/27/2026  8:53 PM           1026 VkLayer_monitor.json
+-a---           7/27/2026  8:53 PM        2142208 VkLayer_monitor.pdb
+-a---           7/27/2026 10:25 PM         646072 VkLayer_screenshot.dll
+-a---           7/27/2026  8:53 PM           4403 VkLayer_screenshot.json
+-a---           7/27/2026  8:53 PM        7221248 VkLayer_screenshot.pdb
+-a---           7/27/2026 10:25 PM       26398648 vulkanCapsViewer.exe
+-a---           7/27/2026 10:25 PM        2793400 vulkaninfoSDK.exe
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Bin\slang-standard-module-2026.13.1
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:25 PM                experimental
+d----           7/27/2026  8:25 PM                slang
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Bin\slang-standard-module-2026.13.1\experimental
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:21 PM           8900 workgraph.slang
+-a---           7/27/2026  8:21 PM         107140 workgraph.slang-module
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Bin\slang-standard-module-2026.13.1\slang
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:21 PM          11581 accelerate-vector-coopmat.slang
+-a---           7/27/2026  8:21 PM           5316 activations.slang
+-a---           7/27/2026  8:21 PM          16896 bindless-storage.slang
+-a---           7/27/2026  8:21 PM           3610 hash-function.slang
+-a---           7/27/2026  8:21 PM           1012 iactivation.slang
+-a---           7/27/2026  8:21 PM            902 iencoder.slang
+-a---           7/27/2026  8:21 PM            966 ilayer.slang
+-a---           7/27/2026  8:21 PM           6794 inline-vector.slang
+-a---           7/27/2026  8:21 PM           4048 istorages.slang
+-a---           7/27/2026  8:21 PM           4291 ivector.slang
+-a---           7/27/2026  8:21 PM           3939 layers.slang
+-a---           7/27/2026  8:21 PM          57393 mma-linear-layout-help.slang
+-a---           7/27/2026  8:21 PM          21835 mma-tiled-cuda.slang
+-a---           7/27/2026  8:21 PM           5511 mma-tiled-layout-helper.slang
+-a---           7/27/2026  8:21 PM          28953 mma-tiled-metal.slang
+-a---           7/27/2026  8:21 PM          17425 mma-tiled-vulkan.slang
+-a---           7/27/2026  8:21 PM          19874 network-parameter-layout-converter.slang
+-a---           7/27/2026  8:21 PM           1861 neural.slang
+-a---           7/27/2026  8:21 PM        5631820 neural.slang-module
+-a---           7/27/2026  8:21 PM          14699 permuto-encoder.slang
+-a---           7/27/2026  8:21 PM          21226 shared-memory-pool.slang
+-a---           7/27/2026  8:21 PM           9850 vectorized-reader.slang
+-a---           7/27/2026  8:21 PM          36043 WaveMatrix.slang
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Config
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:54 PM                VK_LAYER_KHRONOS_profiles
+-a---           7/27/2026  9:00 PM          81213 vk_layer_settings.sh
+-a---           7/27/2026  8:59 PM          76594 vk_layer_settings.txt
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Config\VK_LAYER_KHRONOS_profiles
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:54 PM          67640 VP_ANDROID_vulkan_profile_2021.json
+-a---           7/27/2026  8:54 PM          68502 VP_ANDROID_vulkan_profile_2022.json
+-a---           7/27/2026  8:54 PM          86322 VP_ANDROID_vulkan_profile_2025.json
+-a---           7/27/2026  8:54 PM          36864 VP_KHR_roadmap.json
+-a---           7/27/2026  8:54 PM         463459 VP_LUNARG_desktop_baseline.json
+-a---           7/27/2026  8:54 PM          26385 VP_LUNARG_minimum_requirements.json
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Helpers
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026 10:25 PM         213432 install_helper.exe
+-a---           7/27/2026 10:25 PM        3113400 launch_helper.exe
+-a---           7/27/2026 10:25 PM       25720248 VulkanRT.exe
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Include
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026 10:26 PM                dxc
+d----           7/27/2026  8:36 PM                glslang
+d----           7/27/2026  8:48 PM                shaderc
+d----           7/27/2026 10:26 PM                slang
+d----            5/4/2026  4:36 PM                spirv
+d----           7/27/2026  8:38 PM                spirv_cross
+d----           7/27/2026 10:26 PM                spirv-headers
+d----           7/27/2026  8:36 PM                spirv-tools
+d----           7/27/2026  8:07 PM                vk_video
+d----           7/27/2026  8:59 PM                vulkan
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Include\dxc
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:09 PM          54624 dxcapi.h
+-a---           7/27/2026  8:09 PM          30945 WinAdapter.h
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Include\glslang
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:36 PM                Include
+d----           7/27/2026  8:36 PM                MachineIndependent
+d----           7/27/2026  8:36 PM                Public
+d----           7/27/2026  8:36 PM                SPIRV
+-a---           7/27/2026  8:35 PM           2957 build_info.h
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Include\glslang\Include
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:34 PM          12889 glslang_c_interface.h
+-a---           7/27/2026  8:34 PM           9467 glslang_c_shader_types.h
+-a---           7/27/2026  8:34 PM           5664 ResourceLimits.h
+-a---           7/27/2026  8:34 PM           2345 visibility.h
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Include\glslang\MachineIndependent
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:34 PM          29072 Versions.h
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Include\glslang\Public
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:34 PM           2394 resource_limits_c.h
+-a---           7/27/2026  8:34 PM           2533 ResourceLimits.h
+-a---           7/27/2026  8:34 PM          44585 ShaderLang.h
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Include\glslang\SPIRV
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:34 PM           1982 disassemble.h
+-a---           7/27/2026  8:34 PM           2873 GlslangToSpv.h
+-a---           7/27/2026  8:34 PM           2740 Logger.h
+-a---           7/27/2026  8:34 PM         306882 spirv.hpp11
+-a---           7/27/2026  8:34 PM           5280 SpvTools.h
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Include\shaderc
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:48 PM           2775 env.h
+-a---           7/27/2026  8:48 PM          29624 shaderc.h
+-a---           7/27/2026  8:48 PM          28463 shaderc.hpp
+-a---           7/27/2026  8:48 PM           1377 status.h
+-a---           7/27/2026  8:48 PM           1163 visibility.h
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Include\slang
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:15 PM           7945 slang-com-helper.h
+-a---           7/27/2026  8:15 PM           5563 slang-com-ptr.h
+-a---           7/27/2026  8:15 PM           1524 slang-cpp-host-prelude.h
+-a---           7/27/2026  8:15 PM          12739 slang-cpp-prelude.h
+-a---           7/27/2026  8:15 PM          29841 slang-cpp-scalar-intrinsics.h
+-a---           7/27/2026  8:15 PM          23649 slang-cpp-types-core.h
+-a---           7/27/2026  8:15 PM          37859 slang-cpp-types.h
+-a---           7/27/2026  8:15 PM         307345 slang-cuda-prelude.h
+-a---           7/27/2026  8:15 PM          73508 slang-deprecated.h
+-a---           7/27/2026  8:15 PM          96362 slang-gfx.h
+-a---           7/27/2026  8:15 PM            206 slang-hlsl-prelude.h
+-a---           7/27/2026  8:15 PM           2421 slang-image-format-defs.h
+-a---           7/27/2026  8:15 PM          12053 slang-llvm.h
+-a---           7/27/2026  8:18 PM             95 slang-tag-version.h
+-a---           7/27/2026  8:15 PM           5370 slang-torch-prelude.h
+-a---           7/27/2026  8:15 PM         229980 slang.h
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Include\spirv
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026 10:26 PM                unified1
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Include\spirv\unified1
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:41 PM            867 AMD_gcn_shader.h
+-a---           7/27/2026  8:41 PM            960 AMD_shader_ballot.h
+-a---           7/27/2026  8:41 PM            976 AMD_shader_explicit_vertex_parameter.h
+-a---           7/27/2026  8:41 PM           1226 AMD_shader_trinary_minmax.h
+-a---           7/27/2026  8:41 PM            612 ArmExperimentalMLOperations.h
+-a---           7/27/2026  8:41 PM            711 ArmMotionEngine.100.h
+-a---           7/27/2026  8:41 PM           3769 DebugInfo.h
+-a---           7/27/2026  8:41 PM            469 extinst.arm.experimental-ml-operations.grammar.json
+-a---           7/27/2026  8:41 PM           2683 extinst.arm.motion-engine.100.grammar.json
+-a---           7/27/2026  8:41 PM          16409 extinst.debuginfo.grammar.json
+-a---           7/27/2026  8:41 PM          13995 extinst.glsl.std.450.grammar.json
+-a---           7/27/2026  8:41 PM          13692 extinst.nonsemantic.clspvreflection.grammar.json
+-a---           7/27/2026  8:41 PM            118 extinst.nonsemantic.debugbreak.grammar.json
+-a---           7/27/2026  8:41 PM            265 extinst.nonsemantic.debugprintf.grammar.json
+-a---           7/27/2026  8:41 PM            903 extinst.nonsemantic.graph.debuginfo.grammar.json
+-a---           7/27/2026  8:41 PM          19842 extinst.nonsemantic.shader.debuginfo.100.grammar.json
+-a---           7/27/2026  8:41 PM          20515 extinst.nonsemantic.shader.debuginfo.grammar.json
+-a---           7/27/2026  8:41 PM           5373 extinst.nonsemantic.vkspreflection.grammar.json
+-a---           7/27/2026  8:41 PM          18887 extinst.opencl.debuginfo.100.grammar.json
+-a---           7/27/2026  8:41 PM          28947 extinst.opencl.std.100.grammar.json
+-a---           7/27/2026  8:41 PM            557 extinst.spv-amd-gcn-shader.grammar.json
+-a---           7/27/2026  8:41 PM           1090 extinst.spv-amd-shader-ballot.grammar.json
+-a---           7/27/2026  8:41 PM            339 extinst.spv-amd-shader-explicit-vertex-parameter.grammar.json
+-a---           7/27/2026  8:41 PM           2661 extinst.spv-amd-shader-trinary-minmax.grammar.json
+-a---           7/27/2026  8:41 PM          21011 extinst.tosa.001000.1.grammar.json
+-a---           7/27/2026  8:41 PM           3202 GLSL.std.450.h
+-a---           7/27/2026  8:41 PM           3695 NonSemanticClspvReflection.h
+-a---           7/27/2026  8:41 PM            844 NonSemanticDebugBreak.h
+-a---           7/27/2026  8:41 PM            853 NonSemanticDebugPrintf.h
+-a---           7/27/2026  8:41 PM            704 NonSemanticGraphDebugInfo.h
+-a---           7/27/2026  8:41 PM           6811 NonSemanticShaderDebugInfo.h
+-a---           7/27/2026  8:41 PM           7268 NonSemanticShaderDebugInfo100.h
+-a---           7/27/2026  8:41 PM           1246 NonSemanticVkspReflection.h
+-a---           7/27/2026  8:41 PM           9228 OpenCL.std.h
+-a---           7/27/2026  8:41 PM           5171 OpenCLDebugInfo100.h
+-a---           7/27/2026  8:41 PM         104821 spirv.bf
+-a---           7/27/2026  8:41 PM         630254 spirv.core.grammar.json
+-a---           7/27/2026  8:41 PM         102918 spirv.cs
+-a---           7/27/2026  8:41 PM         330943 spirv.h
+-a---           7/27/2026  8:41 PM         321946 spirv.hpp
+-a---           7/27/2026  8:41 PM         312637 spirv.hpp11
+-a---           7/27/2026  8:41 PM         122876 spirv.json
+-a---           7/27/2026  8:41 PM          93876 spirv.lua
+-a---           7/27/2026  8:41 PM          97140 spirv.py
+-a---           7/27/2026  8:41 PM          81586 spv.d
+-a---           7/27/2026  8:41 PM           2075 TOSA.001000.1.h
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Include\spirv-headers
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:41 PM            867 AMD_gcn_shader.h
+-a---           7/27/2026  8:41 PM            960 AMD_shader_ballot.h
+-a---           7/27/2026  8:41 PM            976 AMD_shader_explicit_vertex_parameter.h
+-a---           7/27/2026  8:41 PM           1226 AMD_shader_trinary_minmax.h
+-a---           7/27/2026  8:41 PM            612 ArmExperimentalMLOperations.h
+-a---           7/27/2026  8:41 PM            711 ArmMotionEngine.100.h
+-a---           7/27/2026  8:41 PM           3769 DebugInfo.h
+-a---           7/27/2026  8:41 PM            469 extinst.arm.experimental-ml-operations.grammar.json
+-a---           7/27/2026  8:41 PM           2683 extinst.arm.motion-engine.100.grammar.json
+-a---           7/27/2026  8:41 PM          16409 extinst.debuginfo.grammar.json
+-a---           7/27/2026  8:41 PM          13995 extinst.glsl.std.450.grammar.json
+-a---           7/27/2026  8:41 PM          13692 extinst.nonsemantic.clspvreflection.grammar.json
+-a---           7/27/2026  8:41 PM            118 extinst.nonsemantic.debugbreak.grammar.json
+-a---           7/27/2026  8:41 PM            265 extinst.nonsemantic.debugprintf.grammar.json
+-a---           7/27/2026  8:41 PM            903 extinst.nonsemantic.graph.debuginfo.grammar.json
+-a---           7/27/2026  8:41 PM          19842 extinst.nonsemantic.shader.debuginfo.100.grammar.json
+-a---           7/27/2026  8:41 PM          20515 extinst.nonsemantic.shader.debuginfo.grammar.json
+-a---           7/27/2026  8:41 PM           5373 extinst.nonsemantic.vkspreflection.grammar.json
+-a---           7/27/2026  8:41 PM          18887 extinst.opencl.debuginfo.100.grammar.json
+-a---           7/27/2026  8:41 PM          28947 extinst.opencl.std.100.grammar.json
+-a---           7/27/2026  8:41 PM            557 extinst.spv-amd-gcn-shader.grammar.json
+-a---           7/27/2026  8:41 PM           1090 extinst.spv-amd-shader-ballot.grammar.json
+-a---           7/27/2026  8:41 PM            339 extinst.spv-amd-shader-explicit-vertex-parameter.grammar.json
+-a---           7/27/2026  8:41 PM           2661 extinst.spv-amd-shader-trinary-minmax.grammar.json
+-a---           7/27/2026  8:41 PM          21011 extinst.tosa.001000.1.grammar.json
+-a---           7/27/2026  8:41 PM           3202 GLSL.std.450.h
+-a---           7/27/2026  8:41 PM           3695 NonSemanticClspvReflection.h
+-a---           7/27/2026  8:41 PM            844 NonSemanticDebugBreak.h
+-a---           7/27/2026  8:41 PM            853 NonSemanticDebugPrintf.h
+-a---           7/27/2026  8:41 PM            704 NonSemanticGraphDebugInfo.h
+-a---           7/27/2026  8:41 PM           6811 NonSemanticShaderDebugInfo.h
+-a---           7/27/2026  8:41 PM           7268 NonSemanticShaderDebugInfo100.h
+-a---           7/27/2026  8:41 PM           1246 NonSemanticVkspReflection.h
+-a---           7/27/2026  8:41 PM           9228 OpenCL.std.h
+-a---           7/27/2026  8:41 PM           5171 OpenCLDebugInfo100.h
+-a---           7/27/2026  8:41 PM          23334 spir-v.xml
+-a---           7/27/2026  8:41 PM         104821 spirv.bf
+-a---           7/27/2026  8:41 PM         630254 spirv.core.grammar.json
+-a---           7/27/2026  8:41 PM         102918 spirv.cs
+-a---           7/27/2026  8:41 PM         330943 spirv.h
+-a---           7/27/2026  8:41 PM         321946 spirv.hpp
+-a---           7/27/2026  8:41 PM         312637 spirv.hpp11
+-a---           7/27/2026  8:41 PM         122876 spirv.json
+-a---           7/27/2026  8:41 PM          93876 spirv.lua
+-a---           7/27/2026  8:41 PM          97140 spirv.py
+-a---           7/27/2026  8:41 PM          81586 spv.d
+-a---           7/27/2026  8:41 PM           2075 TOSA.001000.1.h
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Include\spirv-tools
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:35 PM          49196 libspirv.h
+-a---           7/27/2026  8:35 PM          16430 libspirv.hpp
+-a---           7/27/2026  8:35 PM           4818 linker.hpp
+-a---           7/27/2026  8:35 PM          52249 optimizer.hpp
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Include\spirv_cross
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:38 PM           3073 GLSL.std.450.h
+-a---           7/27/2026  8:38 PM           4170 spirv_cfg.hpp
+-a---           7/27/2026  8:38 PM          52548 spirv_common.hpp
+-a---           7/27/2026  8:38 PM           2637 spirv_cpp.hpp
+-a---           7/27/2026  8:38 PM          55185 spirv_cross_c.h
+-a---           7/27/2026  8:38 PM          18023 spirv_cross_containers.hpp
+-a---           7/27/2026  8:38 PM           2700 spirv_cross_error_handling.hpp
+-a---           7/27/2026  8:38 PM           9948 spirv_cross_parsed_ir.hpp
+-a---           7/27/2026  8:38 PM           1402 spirv_cross_util.hpp
+-a---           7/27/2026  8:38 PM          53957 spirv_cross.hpp
+-a---           7/27/2026  8:38 PM          54302 spirv_glsl.hpp
+-a---           7/27/2026  8:38 PM          17433 spirv_hlsl.hpp
+-a---           7/27/2026  8:38 PM          69906 spirv_msl.hpp
+-a---           7/27/2026  8:38 PM           2633 spirv_parser.hpp
+-a---           7/27/2026  8:38 PM           2548 spirv_reflect.hpp
+-a---           7/27/2026  8:38 PM         320719 spirv.h
+-a---           7/27/2026  8:38 PM         311927 spirv.hpp
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Include\vk_video
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:07 PM           4366 vulkan_video_codec_av1std_decode.h
+-a---           7/27/2026  8:07 PM           6129 vulkan_video_codec_av1std_encode.h
+-a---           7/27/2026  8:07 PM          17088 vulkan_video_codec_av1std.h
+-a---           7/27/2026  8:07 PM           2807 vulkan_video_codec_h264std_decode.h
+-a---           7/27/2026  8:07 PM           7032 vulkan_video_codec_h264std_encode.h
+-a---           7/27/2026  8:07 PM          14275 vulkan_video_codec_h264std.h
+-a---           7/27/2026  8:07 PM           2503 vulkan_video_codec_h265std_decode.h
+-a---           7/27/2026  8:07 PM           7626 vulkan_video_codec_h265std_encode.h
+-a---           7/27/2026  8:07 PM          23892 vulkan_video_codec_h265std.h
+-a---           7/27/2026  8:07 PM           2446 vulkan_video_codec_vp9std_decode.h
+-a---           7/27/2026  8:07 PM           5542 vulkan_video_codec_vp9std.h
+-a---           7/27/2026  8:07 PM            703 vulkan_video_codecs_common.h
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Include\vulkan
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:43 PM                utility
+-a---           7/27/2026  8:43 PM         836118 vk_enum_string_helper.h
+-a---           7/27/2026  8:07 PM           8472 vk_icd.h
+-a---           7/27/2026  8:07 PM           7373 vk_layer.h
+-a---           7/27/2026  8:07 PM           2915 vk_platform.h
+-a---           7/27/2026  8:07 PM           6496 vulkan_android.h
+-a---           7/27/2026  8:07 PM          17794 vulkan_beta.h
+-a---           7/27/2026  8:07 PM        1382559 vulkan_core.h
+-a---           7/27/2026  8:07 PM           2018 vulkan_directfb.h
+-a---           7/27/2026  8:07 PM         743844 vulkan_enums.hpp
+-a---           7/27/2026  8:07 PM         210801 vulkan_extension_inspection.hpp
+-a---           7/27/2026  8:07 PM         439335 vulkan_format_traits.hpp
+-a---           7/27/2026  8:07 PM          13189 vulkan_fuchsia.h
+-a---           7/27/2026  8:07 PM        2320910 vulkan_funcs.hpp
+-a---           7/27/2026  8:07 PM           2008 vulkan_ggp.h
+-a---           7/27/2026  8:07 PM        1782247 vulkan_handles.hpp
+-a---           7/27/2026  8:07 PM        1121589 vulkan_hash.hpp
+-a---           7/27/2026  8:07 PM          12374 vulkan_hpp_macros.hpp
+-a---           7/27/2026  8:07 PM           1409 vulkan_ios.h
+-a---           7/27/2026  8:59 PM         120485 vulkan_layer_settings.hpp
+-a---           7/27/2026  8:07 PM           1441 vulkan_macos.h
+-a---           7/27/2026  8:07 PM           8317 vulkan_metal.h
+-a---           7/27/2026  8:07 PM           4233 vulkan_ohos.h
+-a---           7/27/2026  8:54 PM        3290448 vulkan_profiles.hpp
+-a---           7/27/2026  8:07 PM        1912648 vulkan_raii.hpp
+-a---           7/27/2026  8:07 PM           4314 vulkan_screen.h
+-a---           7/27/2026  8:07 PM          38567 vulkan_shared.hpp
+-a---           7/27/2026  8:07 PM         949571 vulkan_static_assertions.hpp
+-a---           7/27/2026  8:07 PM        9106241 vulkan_structs.hpp
+-a---           7/27/2026  8:07 PM         686666 vulkan_to_string.hpp
+-a---           7/27/2026  8:07 PM           1937 vulkan_ubm.h
+-a---           7/27/2026  8:07 PM           1382 vulkan_vi.h
+-a---           7/27/2026  8:07 PM           2350 vulkan_video.cppm
+-a---           7/27/2026  8:07 PM         277177 vulkan_video.hpp
+-a---           7/27/2026  8:07 PM           2018 vulkan_wayland.h
+-a---           7/27/2026  8:07 PM          16136 vulkan_win32.h
+-a---           7/27/2026  8:07 PM           2033 vulkan_xcb.h
+-a---           7/27/2026  8:07 PM           1554 vulkan_xlib_xrandr.h
+-a---           7/27/2026  8:07 PM           2014 vulkan_xlib.h
+-a---           7/27/2026  8:07 PM          50211 vulkan.cppm
+-a---           7/27/2026  8:07 PM           1722 vulkan.h
+-a---           7/27/2026  8:07 PM        1250635 vulkan.hpp
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Include\vulkan\utility
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:43 PM           6793 vk_concurrent_unordered_map.hpp
+-a---           7/27/2026  8:43 PM         161717 vk_dispatch_table.h
+-a---           7/27/2026  8:43 PM         139602 vk_format_utils.h
+-a---           7/27/2026  8:43 PM           4464 vk_safe_struct_utils.hpp
+-a---           7/27/2026  8:43 PM        1598192 vk_safe_struct.hpp
+-a---           7/27/2026  8:43 PM          24460 vk_small_containers.hpp
+-a---           7/27/2026  8:43 PM          89911 vk_sparse_range_map.hpp
+-a---           7/27/2026  8:43 PM         205604 vk_struct_helper.hpp
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\installerResources
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----            9/8/2026 12:24 PM                com.lunarg.vulkan.core
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\installerResources\com.lunarg.vulkan.core
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/8/2026 12:24 PM          11766 1.4.357.0Bin.txt
+-a---            9/8/2026 12:23 PM             56 1.4.357.0cmake.txt
+-a---            9/8/2026 12:23 PM           1386 1.4.357.0Config.txt
+-a---            9/8/2026 12:23 PM             66 1.4.357.0content.txt
+-a---            9/8/2026 12:23 PM            420 1.4.357.0Helpers.txt
+-a---            9/8/2026 12:23 PM          27964 1.4.357.0Include.txt
+-a---            9/8/2026 12:24 PM          15294 1.4.357.0Lib.txt
+-a---            9/8/2026 12:23 PM            918 1.4.357.0share.txt
+-a---            9/8/2026 12:23 PM            848 1.4.357.0Source.txt
+-a---            9/8/2026 12:23 PM            824 1.4.357.0Templates.txt
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:59 PM                cmake
+-a---           7/27/2026  8:13 PM           2002 dxcompiler.lib
+-a---           7/27/2026  8:36 PM           2582 GenericCodeGen.lib
+-a---           7/27/2026  8:37 PM           3160 GenericCodeGend.lib
+-a---           7/27/2026  8:23 PM           3400 gfx.lib
+-a---           7/27/2026  8:36 PM         267488 glslang-default-resource-limits.lib
+-a---           7/27/2026  8:37 PM         404622 glslang-default-resource-limitsd.lib
+-a---           7/27/2026  8:36 PM       28612194 glslang.lib
+-a---           7/27/2026  8:37 PM       88884270 glslangd.lib
+-a---           7/27/2026  8:36 PM           2594 MachineIndependent.lib
+-a---           7/27/2026  8:37 PM           3172 MachineIndependentd.lib
+-a---           7/27/2026  8:36 PM           2610 OSDependent.lib
+-a---           7/27/2026  8:37 PM           3194 OSDependentd.lib
+-a---           7/27/2026  8:51 PM       69209886 shaderc_combined.lib
+-a---           7/27/2026  8:51 PM          16332 shaderc_shared.lib
+-a---           7/27/2026  8:51 PM         784938 shaderc_util.lib
+-a---           7/27/2026  8:51 PM         233452 shaderc.lib
+-a---           7/27/2026  8:21 PM         168104 slang-compiler.lib
+-a---           7/27/2026  8:22 PM          93104 slang-rt.lib
+-a---           7/27/2026  8:21 PM         163826 slang.lib
+-a---           7/27/2026  8:38 PM          55162 spirv-cross-c-shared.lib
+-a---           7/27/2026  8:38 PM         617028 spirv-cross-c.lib
+-a---           7/27/2026  8:38 PM        2756316 spirv-cross-core.lib
+-a---           7/27/2026  8:38 PM         646104 spirv-cross-cpp.lib
+-a---           7/27/2026  8:38 PM        6972402 spirv-cross-glsl.lib
+-a---           7/27/2026  8:38 PM        3678540 spirv-cross-hlsl.lib
+-a---           7/27/2026  8:38 PM        9792264 spirv-cross-msl.lib
+-a---           7/27/2026  8:39 PM       28099774 spirv-cross-msld.lib
+-a---           7/27/2026  8:38 PM         374322 spirv-cross-reflect.lib
+-a---           7/27/2026  8:38 PM          67850 spirv-cross-util.lib
+-a---           7/27/2026  8:34 PM         321326 spirv-reflect-static.lib
+-a---           7/27/2026  8:36 PM        2655262 SPIRV-Tools-diff.lib
+-a---           7/27/2026  8:37 PM        8650660 SPIRV-Tools-diffd.lib
+-a---           7/27/2026  8:36 PM        4560562 SPIRV-Tools-link.lib
+-a---           7/27/2026  8:37 PM       16010508 SPIRV-Tools-linkd.lib
+-a---           7/27/2026  8:36 PM        3343412 SPIRV-Tools-lint.lib
+-a---           7/27/2026  8:37 PM       10283832 SPIRV-Tools-lintd.lib
+-a---           7/27/2026  8:36 PM       66578852 SPIRV-Tools-opt.lib
+-a---           7/27/2026  8:37 PM      306252292 SPIRV-Tools-optd.lib
+-a---           7/27/2026  8:36 PM        5678812 SPIRV-Tools-reduce.lib
+-a---           7/27/2026  8:37 PM       29809250 SPIRV-Tools-reduced.lib
+-a---           7/27/2026  8:42 PM          45224 SPIRV-Tools-shared.lib
+-a---           7/27/2026  8:37 PM          45348 SPIRV-Tools-sharedd.lib
+-a---           7/27/2026  8:36 PM       25389086 SPIRV-Tools.lib
+-a---           7/27/2026  8:37 PM       79988754 SPIRV-Toolsd.lib
+-a---           7/27/2026  8:36 PM           2548 SPIRV.lib
+-a---           7/27/2026  8:37 PM           3132 SPIRVd.lib
+-a---           7/27/2026  8:07 PM          66154 vulkan-1.lib
+-a---           7/27/2026  8:43 PM       17781716 VulkanSafeStruct.lib
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026 10:26 PM                glslang
+d----           7/27/2026  8:38 PM                spirv_cross_c
+d----           7/27/2026  8:38 PM                spirv_cross_c_shared
+d----           7/27/2026  8:38 PM                spirv_cross_core
+d----           7/27/2026  8:38 PM                spirv_cross_cpp
+d----           7/27/2026  8:38 PM                spirv_cross_glsl
+d----           7/27/2026  8:38 PM                spirv_cross_hlsl
+d----           7/27/2026  8:38 PM                spirv_cross_msl
+d----           7/27/2026  8:38 PM                spirv_cross_reflect
+d----           7/27/2026  8:38 PM                spirv_cross_util
+d----           7/27/2026  8:41 PM                SPIRV-Headers
+d----           7/27/2026  8:36 PM                SPIRV-Tools
+d----           7/27/2026  8:42 PM                SPIRV-Tools-diff
+d----           7/27/2026  8:42 PM                SPIRV-Tools-link
+d----           7/27/2026  8:42 PM                SPIRV-Tools-lint
+d----           7/27/2026  8:42 PM                SPIRV-Tools-opt
+d----           7/27/2026  8:42 PM                SPIRV-Tools-reduce
+d----           7/27/2026  8:42 PM                SPIRV-Tools-tools
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\glslang
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:36 PM                glslang
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\SPIRV-Headers
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:41 PM           4287 SPIRV-HeadersConfig.cmake
+-a---           7/27/2026  8:41 PM           2357 SPIRV-HeadersConfigVersion.cmake
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\SPIRV-Tools
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:36 PM                cmake
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\SPIRV-Tools-diff
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:42 PM                cmake
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\SPIRV-Tools-link
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:42 PM                cmake
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\SPIRV-Tools-lint
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:42 PM                cmake
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\SPIRV-Tools-opt
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:42 PM                cmake
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\SPIRV-Tools-reduce
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:42 PM                cmake
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\SPIRV-Tools-tools
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:42 PM                cmake
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\spirv_cross_c
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:38 PM                cmake
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\spirv_cross_core
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:38 PM                cmake
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\spirv_cross_cpp
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:38 PM                cmake
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\spirv_cross_c_shared
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:38 PM                cmake
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\spirv_cross_glsl
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:38 PM                cmake
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\spirv_cross_hlsl
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:38 PM                cmake
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\spirv_cross_msl
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:38 PM                cmake
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\spirv_cross_reflect
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:38 PM                cmake
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Lib\cmake\spirv_cross_util
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:38 PM                cmake
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Licenses
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/8/2026 12:24 PM            944 LICENSE.txt
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\share
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----            5/4/2026  4:36 PM                vulkan
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\share\vulkan
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026 10:26 PM                registry
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\share\vulkan\registry
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/27/2026  8:54 PM          57063 gen_profiles_file.py
+-a---           7/27/2026  8:54 PM         384135 gen_profiles_solution.py
+-a---           7/27/2026  8:54 PM         631739 profiles-0.8-latest.json
+-a---           7/27/2026  8:07 PM       15848187 validusage.json
+-a---           7/27/2026  8:07 PM         199146 video.xml
+-a---           7/27/2026  8:07 PM        3326067 vk.xml
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Source
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           7/27/2026  8:59 PM                SPIRV-Reflect
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Source\SPIRV-Reflect
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----            5/4/2026  4:36 PM                include
+-a---           7/27/2026  8:34 PM         240760 spirv_reflect.c
+-a---           7/27/2026  8:34 PM          98484 spirv_reflect.h
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Source\SPIRV-Reflect\include
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----            5/4/2026  4:36 PM                spirv
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Templates
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----            5/4/2026  4:36 PM                Visual Studio 2022
+-a---            5/4/2026  4:36 PM            359 README.txt
+
+    Directory: D:\a\GFPGAN-ncnn-vulkan\GFPGAN-ncnn-vulkan\VulkanSDK\Templates\Visual Studio 2022
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            5/4/2026  4:36 PM          18641 VulkanCppProgram.zip
+-a---            5/4/2026  4:36 PM          19719 VulkanCppWindowedProgram.zip
+-a---            5/4/2026  4:36 PM          19055 VulkanProgram.zip
+-a---            5/4/2026  4:36 PM          19794 VulkanWindowedProgram.zip
+
