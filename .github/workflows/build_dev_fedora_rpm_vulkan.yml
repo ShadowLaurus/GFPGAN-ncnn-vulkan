@@ -5,6 +5,9 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 env:
   APPLICATION_NAME: gfpgan-ncnn-vulkan
 
@@ -51,5 +54,17 @@ jobs:
     - name: Build
       run: |
         mkdir build && cd build
-        cmake ../src
-        cmake --build . -j 2
+        cmake ../src > cmake_log.txt 2>&1
+        cmake --build . -j 2 > build_log.txt 2>&1
+    - name: push logs on failure
+      if: failure()
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git checkout -b build-debug-fedora-rpm || git checkout build-debug-fedora-rpm
+        mkdir -p debug-logs-fedora-rpm
+        cp build/cmake_log.txt debug-logs-fedora-rpm/cmake_log.txt || true
+        cp build/build_log.txt debug-logs-fedora-rpm/build_log.txt || true
+        git add debug-logs-fedora-rpm/
+        git commit -m "chore: add fedora rpm build debug logs [skip ci]"
+        git push origin build-debug-fedora-rpm --force
