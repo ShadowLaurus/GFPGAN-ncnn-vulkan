@@ -72,6 +72,7 @@ jobs:
         python-version: '3.10'
     - name: Run E2E Tests
       run: |
+        export LD_LIBRARY_PATH="`pwd`/${{ env.VULKAN_SDK_VERSION }}/x86_64/lib:$LD_LIBRARY_PATH"
         python -m pip install --upgrade pip
         pip install -r tests/requirements.txt
         pytest tests/test_cli.py
