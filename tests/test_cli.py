@@ -53,7 +53,7 @@ def test_cli_help():
     exec_path = get_exec_path()
     if not exec_path:
         pytest.skip("Executable not built.")
-        
+
     result = subprocess.run([exec_path, "-h"], capture_output=True, text=True)
     assert "Usage:" in result.stderr
     assert "-i input-path" in result.stderr
@@ -65,7 +65,7 @@ def test_cli_missing_input():
     exec_path = get_exec_path()
     if not exec_path:
         pytest.skip("Executable not built.")
-        
+
     result = subprocess.run([exec_path], capture_output=True, text=True)
     assert result.returncode == -1
     assert "Usage:" in result.stderr
@@ -74,26 +74,26 @@ def test_cli_custom_output(dummy_image, dummy_models_dir, tmp_path):
     exec_path = get_exec_path()
     if not exec_path:
         pytest.skip("Executable not built.")
-        
+
     output_img = tmp_path / "custom_output.png"
-    
-    # We expect this might fail cleanly or succeed depending on whether the dummy models 
+
+    # We expect this might fail cleanly or succeed depending on whether the dummy models
     # are valid enough for ncnn. We are mostly testing if it *attempts* to read arguments.
     # Note: Since the models are empty 0-byte files, ncnn load will fail with:
     # "open param file ... failed" or "find_blob ... failed".
     # But it should parse the CLI arguments correctly first.
-    
+
     result = subprocess.run([
-        exec_path, 
-        "-i", dummy_image, 
+        exec_path,
+        "-i", dummy_image,
         "-o", str(output_img),
         "-m", dummy_models_dir,
         "-g", "0"
     ], capture_output=True, text=True)
-    
+
     # Check that it tried to use our model path (meaning it parsed -m)
     # The exact error depends on ncnn, but it shouldn't be the CLI usage error
     assert "Usage:" not in result.stderr
-    
+
     # If the real models were present, we would check: assert output_img.exists()
     # Since they are fake, we just verify it didn't fail at the CLI parsing step.
