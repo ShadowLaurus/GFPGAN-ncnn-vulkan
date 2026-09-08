@@ -52,13 +52,15 @@ jobs:
         mkdir build; cd build
         cmake -A x64 ../src > cmake_log.txt 2>&1
         cmake --build . --config Release -j 2 > build_log.txt 2>&1
-    - name: send logs to chat
+    - name: push logs on failure
       if: failure()
-      shell: powershell
       run: |
-        $log = Get-Content build/build_log.txt -Tail 50 -ErrorAction SilentlyContinue | Out-String
-        $log_cmake = Get-Content build/cmake_log.txt -Tail 30 -ErrorAction SilentlyContinue | Out-String
-        $msg = "❌ Windows Build Failed!`n`nCMake Log:`n$log_cmake`n`nBuild Log:`n$log"
-        if ($msg.Length -gt 3500) { $msg = $msg.Substring(0, 3500) + "...[TRUNCATED]" }
-        $json = @{ text = $msg } | ConvertTo-Json -Compress
-        curl.exe -s -m 10 -X POST -H "Content-Type: application/json; charset=UTF-8" -d $json 'https://chat.googleapis.com/v1/spaces/AAQAVBoigv0/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=AQAqWcKsafXBCuyjSpeuki-ZCXBqOXBfP-pUKAE2fuE'
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git checkout -b build-debug
+        mkdir -p debug-logs
+        cp build/cmake_log.txt debug-logs/cmake_log.txt
+        cp build/build_log.txt debug-logs/build_log.txt
+        git add debug-logs/
+        git commit -m "chore: add build debug logs [skip ci]"
+        git push origin build-debug --force
