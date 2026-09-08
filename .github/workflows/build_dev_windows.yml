@@ -50,5 +50,13 @@ jobs:
         $env:OpenCV_DIR="$(pwd)/OpenCV/opencv/build"
         $env:VULKAN_SDK="$(pwd)/VulkanSDK"
         mkdir build; cd build
-        cmake -A x64 ../src
-        cmake --build . --config Release -j 2
+        cmake -A x64 ../src > cmake_log.txt 2>&1
+        cmake --build . --config Release -j 2 > build_log.txt 2>&1
+    - name: upload logs
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: windows-build-logs
+        path: |
+          build/cmake_log.txt
+          build/build_log.txt
