@@ -16,7 +16,7 @@
 class RealESRGAN
 {
 public:
-    RealESRGAN();
+    RealESRGAN(int gpu_id = 0);
     ~RealESRGAN();
 
     int load(const std::string& parampath, const std::string& modelpath);
