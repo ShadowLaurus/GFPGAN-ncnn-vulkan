@@ -7,6 +7,11 @@
 #define RESTORE_WHOLE_IMAGE 1   //0-only restore face, 1-restore whole image
 #define RESTORE_IMAGE_COLOR 0   //0-no color image, 1-coloring grayscale images
 
+// Exit codes
+#define EXIT_ERR_CLI_USAGE 1
+#define EXIT_ERR_IMAGE_READ 2
+#define EXIT_ERR_MODEL_LOAD 3
+
 static void to_ocv(const ncnn::Mat &result, cv::Mat &out) {
     cv::Mat cv_result_32F = cv::Mat::zeros(cv::Size(512, 512), CV_32FC3);
     for (int i = 0; i < result.h; i++) {
@@ -71,29 +76,63 @@ static void paste_faces_to_input_image(const cv::Mat &restored_face, cv::Mat &tr
 
 #endif
 
+#include <gpu.h>
+#include <string>
+#include <cstring>
+#include <cstdlib>
+
 int main(int argc, char **argv) {
-    if (argc != 2) {
-        fprintf(stderr, "Usage: %s [imagepath]\n", argv[0]);
-        return -1;
+    std::string inputpath;
+    std::string outputpath = "result.png";
+    std::string modelpath = "models";
+    int gpu_id = ncnn::get_default_gpu_index();
+
+    for (int i = 1; i < argc; i++) {
+        if (strcmp(argv[i], "-i") == 0 && i + 1 < argc) {
+            inputpath = argv[++i];
+        } else if (strcmp(argv[i], "-o") == 0 && i + 1 < argc) {
+            outputpath = argv[++i];
+        } else if (strcmp(argv[i], "-m") == 0 && i + 1 < argc) {
+            modelpath = argv[++i];
+        } else if (strcmp(argv[i], "-g") == 0 && i + 1 < argc) {
+            gpu_id = atoi(argv[++i]);
+        } else if (strcmp(argv[i], "-h") == 0 || strcmp(argv[i], "--help") == 0) {
+            fprintf(stderr, "Usage: %s -i infile -o outfile [options]...\n\n", argv[0]);
+            fprintf(stderr, "  -h                   show this help\n");
+            fprintf(stderr, "  -i input-path        input image path (jpg/png/webp)\n");
+            fprintf(stderr, "  -o output-path       output image path (jpg/png/webp) (default: result.png)\n");
+            fprintf(stderr, "  -m model-path        folder path to the pre-trained models (default: models)\n");
+            fprintf(stderr, "  -g gpu-id            gpu device to use (default: auto)\n");
+            return 0;
+        }
     }
 
-    const char *imagepath = argv[1];
+    if (inputpath.empty()) {
+        fprintf(stderr, "Usage: %s -i infile -o outfile [options]...\n", argv[0]);
+        return EXIT_ERR_CLI_USAGE;
+    }
 
-    cv::Mat img = cv::imread(imagepath, 1);
+    cv::Mat img = cv::imread(inputpath, 1);
     if (img.empty()) {
-        fprintf(stderr, "cv::imread %s failed\n", imagepath);
-        return -1;
+        fprintf(stderr, "cv::imread %s failed\n", inputpath.c_str());
+        return EXIT_ERR_IMAGE_READ;
     }
 
     GFPGAN gfpgan;
-    gfpgan.load("./models/encoder.param", "./models/encoder.bin", "./models/style.bin");
+    if (gfpgan.load(modelpath + "/encoder.param", modelpath + "/encoder.bin", modelpath + "/style.bin") != 0) {
+        return EXIT_ERR_MODEL_LOAD;
+    }
 
 #if RESTORE_WHOLE_IMAGE
     Face face_detector;
-    face_detector.load("./models/yolov5-blazeface.param", "./models/yolov5-blazeface.bin");
+    if (face_detector.load(modelpath + "/yolov5-blazeface.param", modelpath + "/yolov5-blazeface.bin") != 0) {
+        return EXIT_ERR_MODEL_LOAD;
+    }
 
-    RealESRGAN real_esrgan;
-    real_esrgan.load("./models/real_esrgan.param", "./models/real_esrgan.bin");
+    RealESRGAN real_esrgan(gpu_id);
+    if (real_esrgan.load(modelpath + "/real_esrgan.param", modelpath + "/real_esrgan.bin") != 0) {
+        return EXIT_ERR_MODEL_LOAD;
+    }
 
     cv::Mat bg_upsample;
     real_esrgan.tile_process(img, bg_upsample);
@@ -114,19 +153,15 @@ int main(int argc, char **argv) {
         paste_faces_to_input_image(restored_face, trans_matrix_inv[i], bg_upsample);
 
     }
-    cv::imwrite("result.png", bg_upsample);
+    cv::imwrite(outputpath, bg_upsample);
 #else
     ncnn::Mat gfpgan_result;
     gfpgan.process(img, gfpgan_result);
 
     cv::Mat restored_face;
     to_ocv(gfpgan_result, restored_face);
-    cv::imwrite("result.png",restored_face);
+    cv::imwrite(outputpath, restored_face);
 #endif
-
-
-    //cv::imshow("up", bg_upsample);
-    //cv::waitKey();
 
     return 0;
 }

@@ -1,7 +1,10 @@
 #include "realesrgan.h"
 
-RealESRGAN::RealESRGAN() {
+RealESRGAN::RealESRGAN(int gpu_id) {
     net.opt.use_vulkan_compute = true;
+    if (gpu_id >= 0) {
+        net.set_vulkan_device(gpu_id);
+    }
     net.opt.num_threads = 4;
     scale = 2;
     tile_size = 400;
