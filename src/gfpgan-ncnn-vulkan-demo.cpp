@@ -7,6 +7,11 @@
 #define RESTORE_WHOLE_IMAGE 1   //0-only restore face, 1-restore whole image
 #define RESTORE_IMAGE_COLOR 0   //0-no color image, 1-coloring grayscale images
 
+// Exit codes
+#define EXIT_ERR_CLI_USAGE 1
+#define EXIT_ERR_IMAGE_READ 2
+#define EXIT_ERR_MODEL_LOAD 3
+
 static void to_ocv(const ncnn::Mat &result, cv::Mat &out) {
     cv::Mat cv_result_32F = cv::Mat::zeros(cv::Size(512, 512), CV_32FC3);
     for (int i = 0; i < result.h; i++) {
@@ -104,24 +109,30 @@ int main(int argc, char **argv) {
 
     if (inputpath.empty()) {
         fprintf(stderr, "Usage: %s -i infile -o outfile [options]...\n", argv[0]);
-        return -1;
+        return EXIT_ERR_CLI_USAGE;
     }
 
     cv::Mat img = cv::imread(inputpath, 1);
     if (img.empty()) {
         fprintf(stderr, "cv::imread %s failed\n", inputpath.c_str());
-        return -1;
+        return EXIT_ERR_IMAGE_READ;
     }
 
     GFPGAN gfpgan;
-    gfpgan.load(modelpath + "/encoder.param", modelpath + "/encoder.bin", modelpath + "/style.bin");
+    if (gfpgan.load(modelpath + "/encoder.param", modelpath + "/encoder.bin", modelpath + "/style.bin") != 0) {
+        return EXIT_ERR_MODEL_LOAD;
+    }
 
 #if RESTORE_WHOLE_IMAGE
     Face face_detector;
-    face_detector.load(modelpath + "/yolov5-blazeface.param", modelpath + "/yolov5-blazeface.bin");
+    if (face_detector.load(modelpath + "/yolov5-blazeface.param", modelpath + "/yolov5-blazeface.bin") != 0) {
+        return EXIT_ERR_MODEL_LOAD;
+    }
 
     RealESRGAN real_esrgan(gpu_id);
-    real_esrgan.load(modelpath + "/real_esrgan.param", modelpath + "/real_esrgan.bin");
+    if (real_esrgan.load(modelpath + "/real_esrgan.param", modelpath + "/real_esrgan.bin") != 0) {
+        return EXIT_ERR_MODEL_LOAD;
+    }
 
     cv::Mat bg_upsample;
     real_esrgan.tile_process(img, bg_upsample);

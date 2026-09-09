@@ -67,8 +67,7 @@ def test_cli_missing_input():
         pytest.skip("Executable not built.")
 
     result = subprocess.run([exec_path], capture_output=True, text=True)
-    # C++ returns -1, which Windows translates to 4294967295 (unsigned) or 255
-    assert result.returncode in (-1, 255, 4294967295, 2**32 - 1)
+    assert result.returncode == 1
     assert "Usage:" in result.stderr
 
 def test_cli_custom_output(dummy_image, dummy_models_dir, tmp_path):
