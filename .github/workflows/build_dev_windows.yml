@@ -56,7 +56,7 @@ jobs:
       uses: actions/cache@v4
       with:
         path: "VulkanSDK"
-        key: VulkanSDK-${{ env.VULKAN_SDK_VERSION }}-Installer
+        key: VulkanSDK-${{ env.VULKAN_SDK_VERSION }}-v2
     - name: cache-opencv
       id: cache-opencv
       uses: actions/cache@v4
@@ -85,7 +85,7 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git checkout -b build-debug
+        git checkout -b build-debug || git checkout build-debug
         mkdir -p debug-logs
         cp build/cmake_log.txt debug-logs/cmake_log.txt
         cp build/build_log.txt debug-logs/build_log.txt

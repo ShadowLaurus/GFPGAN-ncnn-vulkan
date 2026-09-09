@@ -49,7 +49,7 @@ jobs:
       uses: actions/cache@v4
       with:
         path: "${{ env.VULKAN_SDK_VERSION }}"
-        key: vulkansdk-linux-x86_64-${{ env.VULKAN_SDK_VERSION }}
+        key: vulkansdk-linux-x86_64-${{ env.VULKAN_SDK_VERSION }}-v2
     - name: setup-vulkansdk
       if: steps.cache-vulkansdk.outputs.cache-hit != 'true'
       run: |
