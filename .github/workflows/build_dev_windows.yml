@@ -50,10 +50,10 @@ jobs:
         7z x -aoa ./opencv-${{ env.OPENCV_VERSION }}-windows.exe -oOpenCV
     - name: build
       run: |
-        $env:OpenCV_DIR="$(pwd)/OpenCV/opencv/build"
+        $env:OpenCV_DIR="$(pwd)/OpenCV/opencv/build/x64/vc16/lib"
         $env:VULKAN_SDK="$(pwd)/VulkanSDK"
         mkdir build; cd build
-        cmake -G "Visual Studio 17 2022" -A x64 ../src > cmake_log.txt 2>&1
+        cmake -A x64 ../src > cmake_log.txt 2>&1
         cmake --build . --config Release -j 2 > build_log.txt 2>&1
     - name: push logs on failure
       if: failure()
