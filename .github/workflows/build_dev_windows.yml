@@ -21,6 +21,7 @@ env:
 
 jobs:
   dev-build-windows:
+    if: ${{ vars.ENABLE_BUILDS_WINDOWS == 'true' }}
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v4

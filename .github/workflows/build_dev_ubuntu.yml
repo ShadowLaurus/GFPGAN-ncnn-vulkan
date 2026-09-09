@@ -14,6 +14,7 @@ env:
 
 jobs:
   dev-build-ubuntu:
+    if: ${{ vars.ENABLE_BUILDS_UBUNTU == 'true' }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
