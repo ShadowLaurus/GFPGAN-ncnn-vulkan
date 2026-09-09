@@ -13,6 +13,7 @@ env:
 
 jobs:
   dev-build-fedora-rpm-vulkan:
+    if: ${{ vars.ENABLE_BUILDS_FEDORA == 'true' }}
     runs-on: ubuntu-latest
     container: fedora:latest
     steps:

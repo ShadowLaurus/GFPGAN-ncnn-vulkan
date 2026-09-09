@@ -13,7 +13,8 @@ env:
   VULKAN_SDK_VERSION: "1.4.357.0"
 
 jobs:
-  dev-build-fedora-lunar-sdk:
+  dev-build-fedora-lunar-vulkan:
+    if: ${{ vars.ENABLE_BUILDS_FEDORA == 'true' }}
     runs-on: ubuntu-latest
     container: fedora:latest
     steps:
