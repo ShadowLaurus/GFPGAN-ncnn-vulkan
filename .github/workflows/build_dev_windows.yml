@@ -11,6 +11,9 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 env:
   APPLICATION_NAME: gfpgan-ncnn-vulkan
   VULKAN_SDK_VERSION: "1.4.357.0"
@@ -61,6 +64,7 @@ jobs:
         mkdir -p debug-logs
         cp build/cmake_log.txt debug-logs/cmake_log.txt
         cp build/build_log.txt debug-logs/build_log.txt
+        Get-ChildItem -Path VulkanSDK -Recurse -Depth 3 > debug-logs/vulkansdk_structure.txt
         git add debug-logs/
         git commit -m "chore: add build debug logs [skip ci]"
         git push origin build-debug --force
