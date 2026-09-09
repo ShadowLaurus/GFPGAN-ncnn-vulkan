@@ -1,5 +1,20 @@
 # GFPGAN-ncnn-vulkan 🚀
 
+## Build Status
+
+[![Windows Dev Build](https://github.com/ShadowLaurus/GFPGAN-ncnn-vulkan/actions/workflows/build_dev_windows.yml/badge.svg)](https://github.com/ShadowLaurus/GFPGAN-ncnn-vulkan/actions/workflows/build_dev_windows.yml)
+[![Ubuntu Dev Build](https://github.com/ShadowLaurus/GFPGAN-ncnn-vulkan/actions/workflows/build_dev_ubuntu.yml/badge.svg)](https://github.com/ShadowLaurus/GFPGAN-ncnn-vulkan/actions/workflows/build_dev_ubuntu.yml)
+[![Fedora Dev Build (RPM Vulkan)](https://github.com/ShadowLaurus/GFPGAN-ncnn-vulkan/actions/workflows/build_dev_fedora_rpm_vulkan.yml/badge.svg)](https://github.com/ShadowLaurus/GFPGAN-ncnn-vulkan/actions/workflows/build_dev_fedora_rpm_vulkan.yml)
+[![Fedora Dev Build (Lunar Vulkan SDK)](https://github.com/ShadowLaurus/GFPGAN-ncnn-vulkan/actions/workflows/build_dev_fedora_lunar_vulkan.yml/badge.svg)](https://github.com/ShadowLaurus/GFPGAN-ncnn-vulkan/actions/workflows/build_dev_fedora_lunar_vulkan.yml)
+![GitHub](https://img.shields.io/github/license/ShadowLaurus/GFPGAN-ncnn-vulkan?color=red)
+[![Open issue](https://img.shields.io/github/issues/ShadowLaurus/GFPGAN-ncnn-vulkan)](https://github.com/ShadowLaurus/GFPGAN-ncnn-vulkan/issues)
+[![Closed issue](https://img.shields.io/github/issues-closed/ShadowLaurus/GFPGAN-ncnn-vulkan)](https://github.com/ShadowLaurus/GFPGAN-ncnn-vulkan/issues)
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/ShadowLaurus/GFPGAN-ncnn-vulkan)
+![cpp](https://img.shields.io/badge/C++20-Project-blue.svg?style=flat&logo=c%2B%2B)
+[![Github All Releases](https://img.shields.io/github/downloads/ShadowLaurus/GFPGAN-ncnn-vulkan/total.svg)](https://github.com/ShadowLaurus/GFPGAN-ncnn-vulkan/releases)
+
+## README Original
+
 [![Windows Dev Build](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan/actions/workflows/build_dev_windows.yml/badge.svg)](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan/actions/workflows/build_dev_windows.yml)
 [![Ubuntu Dev Build](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan/actions/workflows/build_dev_ubuntu.yml/badge.svg)](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan/actions/workflows/build_dev_ubuntu.yml)
 [![Fedora Dev Build (RPM Vulkan)](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan/actions/workflows/build_dev_fedora_rpm_vulkan.yml/badge.svg)](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan/actions/workflows/build_dev_fedora_rpm_vulkan.yml)
