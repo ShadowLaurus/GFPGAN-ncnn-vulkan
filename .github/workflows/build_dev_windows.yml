@@ -53,7 +53,7 @@ jobs:
         $env:OpenCV_DIR="$(pwd)/OpenCV/opencv/build/x64/vc16/lib"
         $env:VULKAN_SDK="$(pwd)/VulkanSDK"
         mkdir build; cd build
-        cmake -A x64 ../src > cmake_log.txt 2>&1
+        cmake -A x64 ../src -DCMAKE_POLICY_VERSION_MINIMUM=3.5 > cmake_log.txt 2>&1
         cmake --build . --config Release -j 2 > build_log.txt 2>&1
     - name: push logs on failure
       if: failure()
