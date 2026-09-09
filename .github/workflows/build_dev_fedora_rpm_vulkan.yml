@@ -18,12 +18,36 @@ jobs:
       run: |
         dnf update -y
         dnf install wget curl git opencv-devel opencv python3-opencv \
-          libomp libomp-devel clang cmake gcc gcc-c++ glslang vulkan* -y
-
+          libomp libomp-devel clang cmake gcc gcc-c++ glslang python3 vulkan* -y
 
     - uses: actions/checkout@v4
       with:
         submodules: 'recursive'
+    - name: Patch CMake minimum version in submodules
+      run: |
+        python3 -c "
+        import os, re
+        for root, dirs, files in os.walk('src/external'):
+            for file in files:
+                if file == 'CMakeLists.txt':
+                    path = os.path.join(root, file)
+                    with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+                        content = f.read()
+                    def bump_version(match):
+                        version_str = match.group(1)
+                        try:
+                            parts = [int(x) for x in version_str.split('.')]
+                            if len(parts) >= 2 and (parts[0] < 3 or (parts[0] == 3 and parts[1] < 5)):
+                                return 'cmake_minimum_required(VERSION 3.5)'
+                        except:
+                            pass
+                        return match.group(0)
+                    new_content = re.sub(r'cmake_minimum_required\s*\(\s*VERSION\s+([0-9.]+)\s*\)', bump_version, content, flags=re.IGNORECASE)
+                    if new_content != content:
+                        with open(path, 'w', encoding='utf-8') as f:
+                            f.write(new_content)
+                        print(f'Patched {path}')
+        "
     - name: Build
       run: |
         mkdir build && cd build
